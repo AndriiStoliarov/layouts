@@ -7,4 +7,4 @@ Eternals is small responsive website where was used grid.
 
 ActiveBox is small responsive website(SPA) where were used flex, favocons, jQuery library, SVG-Sprite, comments.
 
-Webovio is small responsive web application(SPA), where were used flex, grid, normalize file, locals fonts, tipograf.
+Webovio is small responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, tipograf.
