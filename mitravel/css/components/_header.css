@@ -4,7 +4,6 @@
 	top: 0;
 	width: 100%;
 	z-index: 100;
-	/* background-color: rgba(0, 0, 0, 0.7); */
 }
 
 .header__container {
@@ -37,13 +36,13 @@
 }
 
 .social__link--fb {
-	background-image: url("/img/fb.svg");
+	background-image: url("../../img/fb.svg");
 	width: 11px;
 	height: 20px;
 }
 
 .social__link--tw {
-	background-image: url("/img/tw.svg");
+	background-image: url("../../img/tw.svg");
 	width: 20px;
 	height: 17px;
 }
@@ -155,5 +154,3 @@
 .menu__close-line:last-child {
 	transform: rotate(-45deg);
 }
-
-
