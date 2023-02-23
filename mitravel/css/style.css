@@ -1,18 +1,18 @@
-@import "./_normalize.css";
-@import "./_fonts.css";
-@import "./_variables.css";
-@import "./_vendor.css";
-@import "./_global.css";
-@import "./_overall.css";
+@import "/mitravel/_normalize.css";
+@import "/mitravel/_fonts.css";
+@import "/mitravel/_variables.css";
+@import "/mitravel/_vendor.css";
+@import "/mitravel/_global.css";
+@import "/mitravel/_overall.css";
 
 /* components imports */
-@import "./components/_header.css";
-@import "./components/_first.css";
-@import "./components/_become.css";
-@import "./components/_featured.css";
-@import "./components/_slider.css";
-@import "./components/_newsletter.css";
-@import "./components/_insp.css";
-@import "./components/_footer.css";
+@import "/mitravel/components/_header.css";
+@import "/mitravel/components/_first.css";
+@import "/mitravel/components/_become.css";
+@import "/mitravel/components/_featured.css";
+@import "/mitravel/components/_slider.css";
+@import "/mitravel/components/_newsletter.css";
+@import "/mitravel/components/_insp.css";
+@import "/mitravel/components/_footer.css";
 
-@import "./_media.css";
+@import "/mitravel/_media.css";
