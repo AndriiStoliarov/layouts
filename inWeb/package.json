@@ -1,0 +1,28 @@
+{
+    "name": "skeleton",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "project using gulp4",
+    "author": "Dmitrijs Valaks",
+    "devDependencies": {
+        "browser-sync": "latest",
+        "del": "latest",
+        "gulp": "latest",
+        "gulp-autoprefixer": "latest",
+        "gulp-cssbeautify": "latest",
+        "gulp-cssnano": "latest",
+        "gulp-imagemin": "latest",
+        "gulp-plumber": "latest",
+        "gulp-rename": "latest",
+        "gulp-rigger": "latest",
+        "gulp-sass": "^5.1.0",
+        "gulp-strip-css-comments": "latest",
+        "gulp-uglify": "latest",
+        "panini": "latest",
+        "sass": "^1.79.3"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1",
+        "slick-carousel": "^1.8.1"
+    }
+}
