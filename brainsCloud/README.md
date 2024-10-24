@@ -6,11 +6,11 @@
 
 HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
-##activeBox
+## activeBox
 The small responsive website(SPA) where were used flex, favocons, jQuery library, SVG-Sprite, comments.
 
-##inWeb
+## inWeb
 The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts, slick, eliminate jumps when loading slider, jQuery library, Bootstrap, favicon generator.
 
-##mogo
+## mogo
 The big responsive web application(SPA) where were used flex, google fonts, slick, jQuery library, fontawesome icons, placehold.
