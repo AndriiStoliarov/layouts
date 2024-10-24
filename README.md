@@ -1,29 +1,33 @@
 # layouts
 Several different projects adaptive and responsive web design.
 
-## ActiveBox
+## brainsCloud
+### ActiveBox
 The small responsive website(SPA) where were used flex, favocons, jQuery library, SVG-Sprite, comments.
 
-## Eternals
-The small responsive website where was used grid.
-
-## Ghostface
-The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts.
-
-## InWeb
+### InWeb
 The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts, slick, eliminate jumps when loading slider, jQuery library, Bootstrap, favicon generator.
 
-## Mitravel
-The middle responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, css modules, swiper, inputmask.
-
-## Mogo
+### Mogo
 The big responsive web application(SPA) where were used flex, google fonts, slick, jQuery library, fontawesome icons, placehold.
 
-## Ocean
+## maxGraph
+### Mitravel
+The middle responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, css modules, swiper, inputmask.
+
+### Webovio 
+The small responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, tipograf.
+
+## onlineTutorials
+### Eternals
+The small responsive website where was used grid.
+
+### Ocean
 The small website where was used video on the main page and icon set Ionicons.
 
-## Photobook
-The small simple NOT responsive web application(SPA) where were used LESS, gulp, locals fonts, fontawesome icons.
+## vladilenMinin
+### Ghostface
+The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts.
 
-## Webovio 
-The small responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, tipograf.
+### Photobook
+The small simple NOT responsive web application(SPA) where were used LESS, gulp, locals fonts, fontawesome icons.
