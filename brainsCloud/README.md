@@ -2,9 +2,9 @@
 Хочешь научиться создавать сайты? Тогда тебе сюда!
 Много качественного контента по веб-разработке тебе обеспечено!
 
-Курсы <brainscloud.ru>
+Курсы [brainscloud.ru](https://brainscloud.ru)
 
-HTML, CSS справочник <htmlbase.ru>
+HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
 ##activeBox
 The small responsive website(SPA) where were used flex, favocons, jQuery library, SVG-Sprite, comments.
