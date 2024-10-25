@@ -1,6 +1,6 @@
 ![logo](data/brainsCloudLogo.jpg)
-#![BrainsCloud]https://www.youtube.com/@BrainsCloud
 
+#BrainsCloud [YouTube](https://www.youtube.com/@BrainsCloud)
 Хочешь научиться создавать сайты? Тогда тебе сюда!
 Много качественного контента по веб-разработке тебе обеспечено!
 
