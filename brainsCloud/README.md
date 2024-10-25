@@ -1,4 +1,4 @@
-# BrainsCloud. Дмитрий Валак.
+# BrainsCloud.
 Хочешь научиться создавать сайты? Тогда тебе сюда!
 Много качественного контента по веб-разработке тебе обеспечено!
 
@@ -11,7 +11,9 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 ## activeBox
 Верстка сайта с нуля для начинающих с подробными объяснениями используя HTML и CSS. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Практика это самый важный элемент изучения верстки сайтов. Смотрите, делайте и получайте результат!
 
-Video [YouTube](https://www.youtube.com/watch?v=b8K_iowSriQ&list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f).
+Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=b8K_iowSriQ&list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
+
+Ссылка на макет: [Zip архив](data/activeBox.zip)
 
 ## inWeb
 The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts, slick, eliminate jumps when loading slider, jQuery library, Bootstrap, favicon generator.
