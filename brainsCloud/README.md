@@ -19,4 +19,8 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts, slick, eliminate jumps when loading slider, jQuery library, Bootstrap, favicon generator.
 
 ## moGo
-The big responsive web application(SPA) where were used flex, google fonts, slick, jQuery library, fontawesome icons, placehold.
+В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео для начинающих, в нем не будет препроцессоров, сборщиков и каких-либо инструментов, только HTML и CSS!
+
+Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=ltMSrSis9ww&list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
+
+Ссылка на макет: [Zip архив](data/moGo.zip)
