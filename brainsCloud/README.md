@@ -23,4 +23,4 @@ The small simple NOT responsive web application(SPA) where were used SASS, gulp,
 
 Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=ltMSrSis9ww&list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
 
-Ссылка на макет: [Zip архив](data/moGo.zip)
+Ссылка на макет: [freebiesbug.com](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
