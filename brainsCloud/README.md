@@ -16,7 +16,13 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 Ссылка на макет: [Zip архив](data/activeBox.zip)
 
 ## inWeb
-The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts, slick, eliminate jumps when loading slider, jQuery library, Bootstrap, favicon generator.
+В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео не только для начинающих, в нем будем испольсовать препроцессор SASS, сборщик Gulp, инструмент для создания иконки сайта favicon generator, и также подключим популярный фреймворк Bootstrap!
+
+Ссылка на макет для создания иконки сайта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
+
+Ссылка на инструмент для преобразования изображения в фавиконку: [freebiesbug.com](https://realfavicongenerator.net/)
+
+Ссылка на пустой шаблон(иерархия папок и gulpfile) проекта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
 
 ## moGo
 В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео для начинающих, в нем не будет препроцессоров, сборщиков и каких-либо инструментов, только HTML и CSS!
