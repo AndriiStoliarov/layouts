@@ -1,5 +1,7 @@
-# [BrainsCloud]https://www.youtube.com/@BrainsCloud
-![logo](data/brainsCloudLogo.jpg) Хочешь научиться создавать сайты? Тогда тебе сюда!
+# ![BrainsCloud]https://www.youtube.com/@BrainsCloud
+![logo](data/brainsCloudLogo.jpg)
+
+Хочешь научиться создавать сайты? Тогда тебе сюда!
 Много качественного контента по веб-разработке тебе обеспечено!
 
 Меня зовут Дмитрий Валак. Я занимаюсь разработкой сайтов уже много лет, специализируюсь больше на front-end разработке и верстке сайтов, но и программирование тоже изучаю. Здесь буду делиться с вами информацией на разные темы по веб-разработке - HTML, CSS, Javascript, JQuery, Vue, PHP, MySQL, React, Gulp и тд.
