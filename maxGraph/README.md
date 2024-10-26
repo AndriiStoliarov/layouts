@@ -1,9 +1,9 @@
-# maxgraph
+# [maxgraph](https://www.youtube.com/@maxgraph)
 **MaxGraph - cайты как страсть**
 
 Привет! Это MaxGraph!
 
-Меня зовут Максим. Верстальщик, занимаюсь веб-разработкой 7 лет
+Меня зовут Максим. Верстальщик, занимаюсь веб-разработкой 7 лет. Фрилансер уже 5 лет, создал более 50 коммерческих сайтов. Преподаватель в онлайн-университете Skillbox, автор курса Веб-верстка.
 
 На этом канале я делюсь всеми своими знаниями в html-верстке сайтов, раскрываю возможности заработка, делюсь реальными кейсами из своей собственной работы.
 
@@ -17,6 +17,7 @@
 
 ![logo](data/maxGraphLogo.jpg)
 
+
 ## mitravel
 Привет! Ну что, поверстаем?
 
@@ -26,20 +27,18 @@
 
 И, как сейчас модно и удобно - используем для верстки крутой и удобный редактор - Figma.
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=b8K_iowSriQ&list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
+Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=JLWywZpAnMI&list=PLCMvV-acWe2A9tnbX678kJ5j9KdHtZSnV)
 
 Ссылка на макет: [Pdf файл](data/layoutMitravel.pdf)
 
 Ссылка на макет: [Figma](https://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&node-type=canvas)
 
 
-## inWeb
-В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео не только для начинающих, в нем будем испольсовать препроцессор SASS, сборщик Gulp, инструмент для создания иконки сайта favicon generator, и также подключим популярный фреймворк Bootstrap!
+## webovio
+Привет! Это уже четвертый марафон на канале, и его я хочу выделить отдельно, так как постарался сделать его для новичков, максимально рассказывая все нюансы. Возможно, я где-то поспешил - напишите об этом в комментариях.
 
-Ссылка на макет для создания иконки сайта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
+Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=D8DqoTjd_dg)
 
-Ссылка на инструмент для преобразования изображения в фавиконку: [realfavicongenerator.net](https://realfavicongenerator.net/)
+Ссылка на макет: [Pdf файл](data/webovio.pdf)
 
-Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
-
-Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton.zip)
+Ссылка на макет: [Figma](https://www.figma.com/design/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=7-3&node-type=frame)

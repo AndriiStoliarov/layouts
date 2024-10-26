@@ -9,9 +9,8 @@
 
 HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
-Ссылка на канал [YouTube](https://www.youtube.com/@BrainsCloud)
-
 ![logo](data/brainsCloudLogo.jpg)
+
 
 ## activeBox
 Верстка сайта с нуля для начинающих с подробными объяснениями используя HTML и CSS. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Практика это самый важный элемент изучения верстки сайтов. Смотрите, делайте и получайте результат!
@@ -19,6 +18,7 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=b8K_iowSriQ&list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
 
 Ссылка на макет: [Zip архив](data/activeBox.zip)
+
 
 ## inWeb
 В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео не только для начинающих, в нем будем испольсовать препроцессор SASS, сборщик Gulp, инструмент для создания иконки сайта favicon generator, и также подключим популярный фреймворк Bootstrap!
@@ -30,6 +30,7 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
 
 Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton.zip)
+
 
 ## moGo
 В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео для начинающих, в нем не будет препроцессоров, сборщиков и каких-либо инструментов, только HTML и CSS!
