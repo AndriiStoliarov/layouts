@@ -1,11 +1,7 @@
 # [OnlineTutorialsYT](https://www.youtube.com/@OnlineTutorialsYT)
-﷽
 Online Tutorials is a channel for learning Complete responsive website design, Creative CSS animation and Hover Effects,Amazing Vanilla Javascript projects, creative UX and UI Design using Html and CSS and much more... Htm5, CSS3, Javascript,jQuery,Bootstrap, photoshop, Website Design.
 
-Channel Managed By : Muhammad Irshad - INDIA
-
-<www.onlinetutorialsweb.com>
-[www.onlinetutorialsweb.com](www.onlinetutorialsweb.com)
+Channel managed by: Muhammad Irshad - INDIA
 
 ![logo](data/onlineTutorialsYTLogo.jpg)
 
