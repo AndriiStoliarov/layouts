@@ -9,14 +9,15 @@ Channel managed by: Muhammad Irshad - INDIA
 ## eternals
 How to Make Responsive Website Design using Html & CSS?
 
-Link to video course: [YouTube](https://www.youtube.com/watch?v=zzlcH_cusek)
+Video course link: [YouTube](https://www.youtube.com/watch?v=zzlcH_cusek)
 
+Images download link: [drive.google.com](https://drive.google.com/drive/folders/192LKLfoEm39GBZzEHy-Pwmx8FZHFtytJ)
 
 ## ocean
-...
+How to make Website using Html & CSS With Video Background?
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=D8DqoTjd_dg)
+Video course link: [YouTube](https://www.youtube.com/watch?v=aHH2pHnWWig)
 
-Ссылка на макет: [Pdf файл](data/webovio.pdf)
+Video download link: [www.pexels.com](https://www.pexels.com/video/drawing-a-large-heart-figure-on-the-sand-of-a-seashore-3094026/)
 
-Ссылка на макет: [Figma](https://www.figma.com/design/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=7-3&node-type=frame)
+Image download link: [drive.google.com](https://drive.google.com/file/d/1uGWfAhraTPpnx-CM61fedC3bgk7bFpjp/view)
