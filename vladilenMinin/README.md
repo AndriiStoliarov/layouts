@@ -4,9 +4,9 @@ Frontend разработчик с 2012 года. Сейчас предприн�
 ![logo](data/vladilenMininLogo.jpg)
 
 
-## Ghostface
+## ghostface
 The small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts.
 
 
-## Photobook
+## photobook
 The small simple NOT responsive web application(SPA) where were used LESS, gulp, locals fonts, fontawesome icons.
