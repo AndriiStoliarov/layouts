@@ -2,6 +2,7 @@
 
 .nav {
     display: flex;
+    align-items: center;
     height: 100%;
 }
 
@@ -14,8 +15,6 @@
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
-
-    border-radius: 20px;
 
     &:after {
         content: "";
@@ -31,16 +30,25 @@
         transition: width .2s linear;
     }
 
-    &:hover,
-    &.active {
+    &:hover:not(.nav__link--btn) {
 
         &::after {
             width: 100%;
         }
     }
 
+    /* Modificators */
     &--btn {
         padding: 0.66rem 2rem;
+
         border: 2px solid @black;
+        border-radius: 20px;
+
+        transition: background-color .2s linear, color .2s linear;
+
+        &:hover {
+            background-color: @black;
+            color: @white;
+        }
     }
 }
