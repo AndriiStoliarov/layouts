@@ -36,6 +36,9 @@
                 <a class="nav__link  nav__link--btn" href="#" data-modal="#modal_hire_me">hire me</a>
             </div>
 
+            <div class="burger">
+                <img class="burger__icon" src="images/burger.svg" alt="burger icon">
+            </div>
         </div>
     </div>
 </header>
@@ -108,7 +111,7 @@
             </div>
 
             <div class="portfolio__col" data-cat="website">
-                <div class="work">
+                <div class="work" data-modal="#modal_project_2">
                     <img class="work__image" src="https://placehold.it/370x300" alt="">
                     <div class="work__content">
                         <div class="work__cat">category: website</div>
@@ -375,7 +378,7 @@
 
         <div class="modal-work">
             <div class="modal-work__preview">
-                <div id="worksSlider">
+                <div data-slider="slick">
                     <div>
                         <img class="modal-work__photo" src="https://placehold.it/790x780" alt="works photo">
                     </div>
@@ -388,6 +391,60 @@
 
                 <div class="modal-work__header">
                     <h3 class="modal-work__title">Project title</h3>
+                    <div class="modal-work__info">
+                        category <span class="modal-work__info-divider">|</span> 2018
+                    </div>
+                </div>
+
+                <div class="model-work__client">
+                    <div class="model-work__client-title">Client:</div>
+                    <div class="model-work__client-company">Creative Agency</div>
+                </div>
+
+                <div class="modal-work__text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam commodi, consequatur earum voluptas doloribus expedita molestias molestiae perferendis tempore nesciunt! Saepe corporis accusamus sapiente repellat corrupti itaque accusantium explicabo unde.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem placeat, eum natus explicabo ipsam ea ipsum? Vitae, aliquid quae perferendis doloremque unde quia maxime aut impedit repellat repudiandae harum dignissimos!</p>
+                </div>
+
+                <div class="modal-work__footer">
+                    <button class="modal-work__btn slickPrev" type="button">
+                        <img src="images/back.svg" height="11" alt="button previous">
+                        Previous
+                    </button>
+                    <button class="modal-work__btn slickNext" type="button">
+                        Next
+                        <img src="images/next.svg" height="11" alt="button next">
+                    </button>
+                </div>
+
+            </div><!-- /.modal-work__content -->
+        </div><!-- /.modal-work -->
+
+    </div><!-- /.modal__dialog -->
+</div><!-- /.modal -->
+
+<div class="modal" id="modal_project_2">
+    <div class="modal__dialog">
+
+        <button class="modal__close" type="button" data-close>
+            <img src="images/modal-close.svg" alt="modal button close">
+        </button>
+
+        <div class="modal-work">
+            <div class="modal-work__preview">
+                <div data-slider="slick">
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780" alt="works photo">
+                    </div>
+                    <div>
+                        <img class="modal-work__photo" src="https://placehold.it/790x780/333" alt="works photo">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-work__content">
+
+                <div class="modal-work__header">
+                    <h3 class="modal-work__title">Project title 2</h3>
                     <div class="modal-work__info">
                         category <span class="modal-work__info-divider">|</span> 2018
                     </div>

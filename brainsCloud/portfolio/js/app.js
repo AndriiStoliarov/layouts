@@ -1,5 +1,6 @@
 $(function() {
 
+    const worksSlider = $('[data-slider="slick"]');
 
     /* Filter
     =====================*/
@@ -48,7 +49,7 @@ $(function() {
         }, 200);
 
         // переращет размеров
-        $('#worksSlider').slick('setPosition');
+        worksSlider.slick('setPosition');
     });
 
     modalClose.on("click", function(event){
@@ -88,7 +89,7 @@ $(function() {
     /* Slider: https://kenwheeler.github.io/slick/
     =====================*/
 
-    $('#worksSlider').slick({
+    worksSlider.slick({
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -100,12 +101,16 @@ $(function() {
     $(".slickPrev").on("click", function(event) {
         event.preventDefault();
 
-        $('#worksSlider').slick("slickPrev");
+        let currentSlider = $(this).parents('.modal').find('[data-slider="slick"]');
+
+        currentSlider.slick("slickPrev");
     });
 
     $(".slickNext").on("click", function(event) {
         event.preventDefault();
 
-        $('#worksSlider').slick("slickNext");
+        let currentSlider = $(this).parents('.modal').find('[data-slider="slick"]');
+
+        currentSlider.slick("slickNext");
     });
 });
