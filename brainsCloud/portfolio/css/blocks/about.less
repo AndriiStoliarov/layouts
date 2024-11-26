@@ -2,6 +2,10 @@
 
 .about {
     margin: 8.4rem 0;
+
+    @media @tablet {
+        margin: 4rem 0;
+    }
 }
 
 .about__inner {
@@ -53,6 +57,7 @@
 
         img {
             position: relative;
+            margin: 0 auto;
         }
     }
 }
@@ -64,6 +69,14 @@
     @media @tablet {
         order: 1;
         margin-bottom: 2rem;
+        padding-left: 0;
+
+        text-align: center;
+        max-width: 600px;
+        // instead margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
+
     }
 }
 
@@ -75,6 +88,10 @@
 
     @media @notebook {
         font-size: 2.5rem;
+    }
+
+    @media @mobile {
+        font-size: 2rem;
     }
 }
 
@@ -91,6 +108,14 @@
 
     @media @notebook {
         font-size: 4rem;
+    }
+
+    @media @tablet {
+        position: static;
+    }
+
+    @media @mobile {
+        font-size: 3rem;
     }
 }
 

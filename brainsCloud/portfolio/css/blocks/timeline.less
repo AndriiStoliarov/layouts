@@ -20,6 +20,14 @@
         top: 0;
         left: 50%;
         z-index: 1;
+
+        @media @mobile {
+            display: none;
+        }
+    }
+
+    @media @mobile {
+        flex-wrap: wrap;
     }
 }
 
@@ -29,10 +37,28 @@
     &--left {
         text-align: right;
         padding-right: 3.2rem;
+
+        @media @tablet {
+            padding-right: 1.6rem;
+        }
+
+        @media @mobile {
+            text-align: left;
+        }
     }
 
     &--right {
         padding-left: 3.2rem;
+
+        @media @tablet {
+            padding-left: 1.6rem;
+        }
+
+    }
+
+    @media @mobile {
+        width: 100%;
+        padding: 0 1rem;
     }
 }
 
