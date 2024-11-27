@@ -28,6 +28,7 @@
 
     @media @mobile {
         flex-wrap: wrap;
+        margin: 2.2rem auto;
     }
 }
 
@@ -44,6 +45,8 @@
 
         @media @mobile {
             text-align: left;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #000;
         }
     }
 
@@ -69,6 +72,10 @@
     color: @black;
     text-transform: uppercase;
     font-weight: 700;
+
+    @media @mobile {
+        margin-bottom: 1.6rem;
+    }
 }
 
 .timeline__item {
@@ -76,6 +83,10 @@
 
     &:last-child {
         margin-bottom: 0;
+    }
+
+    @media @mobile {
+        margin-bottom: 1.6rem;
     }
 }
 
