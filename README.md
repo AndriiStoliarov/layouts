@@ -8,7 +8,7 @@ Several different projects adaptive and responsive web design.
 
 **MoGo** is the big responsive web application(SPA) where were used flex, google fonts, slider slick, jQuery library, placehold. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
-**Portfolio** is the responsive web application(SPA) where were used flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photos adaptive style, modal windows, placehold dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
+**Portfolio** is the small responsive web application(SPA) with modal windows where were used flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photos adaptive style, placehold dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
 
 ## maxGraph
 **Mitravel** is the middle responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, css modules, swiper, inputmask. [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/mitravel/index.html)
