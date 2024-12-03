@@ -24,3 +24,5 @@ Several different projects adaptive and responsive web design.
 **Ghostface** is the small simple NOT responsive web application(SPA) where were used SASS, gulp, locals fonts.
 
 **Photobook** is the small simple NOT responsive web application(SPA) where were used LESS, gulp, locals fonts, fontawesome icons.
+
+**Colors** is the small simple web application where were used flex, google fonts, fontawesome icons, chroma library, colors generator function, navigator object, location object. [GitHub Page](https://andriistoliarov.github.io/layouts/vladilenMinin/colors/index.html)
