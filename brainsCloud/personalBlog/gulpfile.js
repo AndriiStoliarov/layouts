@@ -14,10 +14,6 @@ import uglify from "gulp-uglify";
 import plumber from "gulp-plumber";
 import panini from "panini";
 import imagemin from "gulp-imagemin";
-import imageminGifsicle from "imagemin-gifsicle";
-import imageminMozjpeg from "imagemin-mozjpeg";
-import imageminOptipng from "imagemin-optipng";
-import imageminSvgo from "imagemin-svgo";
 import { deleteAsync as del } from "del";
 import notify from "gulp-notify";
 import webpack from 'webpack';
@@ -189,12 +185,12 @@ const jsWatch = (cb) => {
 }
 
 const images = (cb) => {
-    return src(path.src.images)
+    return src(path.src.images, {encoding: false})
         .pipe(imagemin([
-            imageminGifsicle({interlaced: true}),
-            imageminMozjpeg({quality: 80, progressive: true}),
-            imageminOptipng({optimizationLevel: 5}),
-            imageminSvgo({
+            imagemin.gifsicle({interlaced: true}),
+            imagemin.mozjpeg({quality: 80, progressive: true}),
+            imagemin.optipng({optimizationLevel: 5}),
+            imagemin.svgo({
                 plugins: [
                     { removeViewBox: true },
                     { cleanupIDs: false }
