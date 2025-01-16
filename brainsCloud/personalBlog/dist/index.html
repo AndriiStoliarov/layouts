@@ -22,9 +22,30 @@
         <header class="header">
             <div class="header__left">
                 <nav class="nav">
-                    <ul>
-                        <li>
-                            <a href="#">Главная</a>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link  has-subnav" href="#">Статьи</a>
+        
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Реклама</a>
                         </li>
                     </ul>
                 </nav>
@@ -32,14 +53,18 @@
         
             <div class="header__right">
                 <nav class="nav">
-                    <ul>
-                        <li>
-                            <a href="#">Профиль</a>
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
                         </li>
                     </ul>
                 </nav>
-                <form action="/" method="post">
-                    <input type="text">
+        
+                <form class="search" action="/" method="post">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу">
                 </form>
             </div>
         </header>
@@ -89,7 +114,28 @@
             <div class="container">
                 
                 
-                Hello!
+                <div class="stories">
+                    <div class="stories__item">
+                        <img class="stories__preview" src="assets/images/stories/stories-1.jpg" alt="first stories image">
+                        <div class="stories__title">Отдыхаю на природе</div>
+                        <time datetime="2020-09-21 19:21">21.09.2020</time>
+                    </div>
+                    <div class="stories__item">
+                        <img src="assets/images/stories/stories-2.jpg" alt="second stories image">
+                        <div class="stories__title">Отдыхаю на природе</div>
+                        <time datetime="2020-09-15 20:45">15.09.2020</time>
+                    </div>
+                    <div class="stories__item">
+                        <img src="assets/images/stories/stories-3.jpg" alt="third stories image">
+                        <div class="stories__title">Отдыхаю на природе</div>
+                        <time datetime="2020-09-11 15:15">11.09.2020</time>
+                    </div>
+                    <div class="stories__item">
+                        <img src="assets/images/stories/stories-4.jpg" alt="fourth stories image">
+                        <div class="stories__title">Отдыхаю на природе</div>
+                        <time datetime="2020-08-28 08:55">28.08.2020</time>
+                    </div>
+                </div>
                 
             </div>
         </main>

@@ -366,14 +366,109 @@ body {
 }
 
 .header {
+  display: flex;
   width: calc(100% - 300px);
-  height: 30px;
   background: #0D0D0D;
   box-shadow: 0 5px 22px rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1000;
+}
+
+.header__left {
+  width: 60%;
+}
+
+.header__right {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  position: relative;
+}
+.nav__item:hover .nav__link {
+  background-color: #3137C9;
+}
+.nav__item:hover > .subnav {
+  display: block;
+}
+
+.nav__link {
+  display: block;
+  width: 100%;
+  padding: 1.35rem;
+  font-size: 1.1em;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+}
+.nav__link.has-subnav {
+  position: relative;
+  padding-right: 3.5rem;
+}
+.nav__link.has-subnav:after {
+  content: "";
+  display: block;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 6px 5px 0 5px;
+  border-color: #fff transparent transparent transparent;
+  position: absolute;
+  top: 50%;
+  right: 1.35rem;
+  transform: translateY(-50%);
+}
+
+.subnav {
+  display: none;
+  width: 16.5rem;
+  padding: 0.5rem 0;
+  background-color: #3137C9;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.subnav__link {
+  display: block;
+  padding: 0.45rem 1.2rem;
+  font-style: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.subnav__link:hover {
+  background-color: rgb(44.002, 49.39, 180.498);
+}
+
+.search {
+  width: 100%;
+  max-width: 21rem;
+  background: #202020;
+}
+
+.search__input {
+  display: block;
+  padding: 1.6rem 2rem 1.6rem;
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.search__input::placeholder {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .sidebar {
@@ -492,4 +587,29 @@ body {
 }
 .btn--blue:hover {
   background-color: rgb(44.002, 49.39, 180.498);
+}
+
+.stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 13px;
+  grid-template-rows: 195px;
+}
+
+.stories__item {
+  overflow: hidden;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stories__preview {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
