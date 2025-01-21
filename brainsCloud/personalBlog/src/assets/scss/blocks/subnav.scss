@@ -25,5 +25,6 @@
 
     &:hover {
         background-color: darken($color: $blue, $amount: 5%);
+        text-decoration: none;
     }
 }
