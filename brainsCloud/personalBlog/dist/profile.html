@@ -12,7 +12,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Works</title>
+    <title>Profile</title>
 </head>
 <body>
 
@@ -114,62 +114,46 @@
             <div class="container">
                 
                 
-                <h1 class="page__title">Мои работы</h1>
+                <h1 class="page__title">Профиль</h1>
                 
-                <article class="work">
-                    <div class="work__preview">
-                        <img src="assets/images/works/work-1.jpg" alt="work preview image">
-                    </div>
+                <form class="form" action="/" method="post">
+                    <div class="cabinet">
+                        <div class="cabinet__form">
+                            <div class="form__group  form__group--md">
+                                <input class="form__control" type="text" placeholder="Ваше имя" value="Дмитрий Валак">
+                                <span class="form__line"></span>
+                            </div>
                 
-                    <div class="work__content">
-                        <h2 class="work__title">
-                            <a href="#" target="_blank">altermono.com</a>
-                        </h2>
-                
-                        <div class="work__description">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel quae laudantium illum velit veritatis adipisci quisquam accusantium, praesentium dolorem soluta, corporis debitis, culpa sint officiis vitae amet esse tempora voluptatibus porro. Repellendus sunt, voluptatibus, sit, adipisci iusto incidunt ratione neque nostrum qui expedita accusantium veniam!</p>
+                            <div class="form__group  form__group--md">
+                                <input class="form__control" type="email" placeholder="Ваше e-mail" value="alex.provo@mail.com">
+                                <span class="form__line"></span>
+                            </div>
+                        
+                            <div class="form__group  form__group--md">
+                                <input class="form__control" type="password" placeholder="Новый пароль">
+                                <span class="form__line"></span>
+                            </div>
+                        
+                            <div class="form__group  form__group--md">
+                                <input class="form__control" type="password" placeholder="Подтвердите пароль">
+                                <span class="form__line"></span>
+                            </div>
                         </div>
                 
-                        <ul class="tags">
-                            <li class="tags__item">дизайн</li>
-                            <li class="tags__item">создание сайта</li>
-                            <li class="tags__item">SMM</li>
-                        </ul>
+                        <div class="cabinet__avatar">
+                            <img src="https://placehold.co/150" alt="profile avatar">
                 
-                        <div class="work__footer">
-                            <a class="work__footer  btn  btn--blue  btn--rounded  btn--sm" href="#" target="_blank">Перейти на сайт</a>
+                            <label class="cabinet__file">
+                                <input type="file">
+                                выбрать аватар
+                            </label>
                         </div>
                     </div>
-                </article>
                 
-                <article class="work">
-                    <div class="work__preview">
-                        <img src="assets/images/works/work-2.jpg" alt="work preview image">
+                    <div class="form__footer">
+                        <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Сохранить</button>
                     </div>
-                
-                    <div class="work__content">
-                        <h2 class="work__title">
-                            <a href="#" target="_blank">codedoco.com</a>
-                        </h2>
-                
-                        <div class="work__description">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum natus maxime delectus non a est, illo adipisci eius rerum, voluptas error magnam similique ipsum deleniti maiores facere, in voluptatibus reiciendis!</p>
-                        </div>
-                
-                        <ul class="tags">
-                            <li class="tags__item">дизайн</li>
-                            <li class="tags__item">создание сайта</li>
-                            <li class="tags__item">SMM</li>
-                            <li class="tags__item">верстка</li>
-                            <li class="tags__item">SEO</li>
-                            <li class="tags__item">BEM</li>
-                        </ul>
-                
-                        <div class="work__footer">
-                            <a class="work__footer  btn  btn--blue  btn--rounded  btn--sm" href="#" target="_blank">Перейти на сайт</a>
-                        </div>
-                    </div>
-                </article>
+                </form>
             </div>
         </main>
     </div>
