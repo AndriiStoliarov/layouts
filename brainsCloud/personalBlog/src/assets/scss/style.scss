@@ -1,4 +1,5 @@
 @import "vars";
+@import "mixins";
 @import "vendor/reset";
 
 
@@ -17,7 +18,8 @@ body {
     color: $white;
 
     //* hidden scroll for modal window
-    &.no-scroll {
+    &.no-scroll,
+    &.show-sidebar {
         overflow: hidden;
     }
 }
@@ -40,6 +42,7 @@ a {
 @import "blocks/page";
 @import "blocks/header";
 @import "blocks/nav";
+@import "blocks/burger";
 @import "blocks/subnav";
 @import "blocks/search";
 @import "blocks/sidebar";
