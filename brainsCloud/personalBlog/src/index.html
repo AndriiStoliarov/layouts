@@ -11,17 +11,17 @@ title: Home
         <div class="stories__title">Отдыхаю на природе</div>
         <time class="stories__date" datetime="2020-09-21 19:21">21.09.2020</time>
     </div>
-    <div class="stories__item">
+    <div class="stories__item" data-modal="story-modal">
         <img class="stories__preview" src="assets/images/stories/stories-2.jpg" alt="second stories image">
         <div class="stories__title">Заканчиваю сложный проект</div>
         <time class="stories__date" datetime="2020-09-15 20:45">15.09.2020</time>
     </div>
-    <div class="stories__item">
+    <div class="stories__item" data-modal="story-modal">
         <img class="stories__preview" src="assets/images/stories/stories-3.jpg" alt="third stories image">
         <div class="stories__title">Переехал в новую квартиру</div>
         <time class="stories__date" datetime="2020-09-11 15:15">11.09.2020</time>
     </div>
-    <div class="stories__item">
+    <div class="stories__item" data-modal="story-modal">
         <img class="stories__preview" src="assets/images/stories/stories-4.jpg" alt="fourth stories image">
         <div class="stories__title">Осень пришла!</div>
         <time class="stories__date" datetime="2020-08-28 08:55">28.08.2020</time>
@@ -32,7 +32,7 @@ title: Home
 <!-- Add post -->
 <div class="add-post">
 <form class="add-post__form" action="/" method="post">
-    <textarea class="add-post__textarea" name="post-text" placeholder="Напиши что-нибудь"></textarea>
+    <textarea class="add-post__textarea" name="post-text" placeholder="Напиши что-нибудь" data-autoresize></textarea>
 
     <div class="add-post__form-actions">
         <label class="add-post__file" for="add-post-file">

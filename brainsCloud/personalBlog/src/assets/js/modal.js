@@ -20,7 +20,10 @@ modalBtn.forEach(item => {
         modal.classList.add('show');
         body.classList.add('no-scroll');
 
-        modalContent.style.transform = 'none';
+        setTimeout(() => {
+            modalContent.style.transform = 'none';
+            modalContent.style.opacity = '1';
+        }, 1);
     });
 });
 
@@ -44,6 +47,11 @@ modal.forEach(item => {
 });
 
 function closeModal(currentModal) {
-    currentModal.classList.remove('show');
-    body.classList.remove('no-scroll');
+    let modalContent = currentModal.querySelector('.modal__content');
+    modalContent.removeAttribute('style');
+
+    setTimeout(() => {
+        currentModal.classList.remove('show');
+        body.classList.remove('no-scroll');
+    }, 200);
 }

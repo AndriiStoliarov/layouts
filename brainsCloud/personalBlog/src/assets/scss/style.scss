@@ -18,10 +18,16 @@ body {
     color: $white;
 
     //* hidden scroll for modal window
-    &.no-scroll,
-    &.show-sidebar {
+    &.no-scroll {
         overflow: hidden;
     }
+
+    @include breakpoint($tablet-bp) {
+
+        &.show-sidebar {
+            overflow: hidden;
+        }
+    };
 }
 
 *,
