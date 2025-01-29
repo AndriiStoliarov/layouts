@@ -8,7 +8,7 @@ Several different projects adaptive and responsive web design.
 
 **MoGo** is the big responsive web application(SPA) where were used flex, google fonts, slider slick, jQuery library, placehold. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
-**PersonalBlog** is the multi-page responsive web application with modal windows where were used SASS, gulp, system fonts, reset file, flex, grid, embed video iframe, photo and video adaptive style, masks, picture with source property, mixin, flex-grow, wrap text to next line and ellipsis, adaptive text input fields based on height. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/personalBlog/index.html)
+**PersonalBlog** is the multi-page responsive web application with modal windows where were used SASS, gulp, system fonts, reset file, flex, grid, embed video iframe, photo and video adaptive style, masks, picture with source property, mixin, property flex-grow for block growth, hide text in the and of the line and add ellipsis, adaptive text input fields based on height. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/personalBlog/index.html)
 
 **Portfolio** is the small responsive web application(SPA) with modal windows where were used flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photo adaptive style, placehold dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
 
