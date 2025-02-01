@@ -4,7 +4,7 @@ import ttf2woff2 from 'gulp-ttf2woff2';
 
 export const otfToTtf = () => {
     // Ищем файлы шрифтов .otf
-    return app.gulp.src(`${app.path.srcFolder}/fonts/*.otf`, {})
+    return app.gulp.src(`${app.path.srcFolder}/assets/fonts/*.otf`, {})
         .pipe(app.plugins.plumber(
             app.plugins.notify.onError({
                 title: "FONTS",
@@ -16,12 +16,12 @@ export const otfToTtf = () => {
             formats: ['ttf']
         }))
         // Выгружаем в исходную папку
-        .pipe(app.gulp.dest(`${app.path.srcFolder}/fonts/`));
+        .pipe(app.gulp.dest(`${app.path.srcFolder}/assets/fonts/`));
 }
 
 export const ttfToWoff = () => {
     // Ищем файлы шрифтов .ttf
-    return app.gulp.src(`${app.path.srcFolder}/fonts/*.ttf`, {})
+    return app.gulp.src(`${app.path.srcFolder}/assets/fonts/*.ttf`, {})
         .pipe(app.plugins.plumber(
             app.plugins.notify.onError({
                 title: "FONTS",
@@ -35,7 +35,7 @@ export const ttfToWoff = () => {
         // Выгружаем в папку c результатом
         .pipe(app.gulp.dest(`${app.path.build.fonts}`))
         // Ищем файлы шрифтов .ttf
-        .pipe(app.gulp.src(`${app.path.srcFolder}/fonts/*.ttf`))
+        .pipe(app.gulp.src(`${app.path.srcFolder}/assets/fonts/*.ttf`))
         // Конвертируем в .woff2
         .pipe(ttf2woff2())
         // Выгружаем в папку с результатом
@@ -45,7 +45,7 @@ export const ttfToWoff = () => {
 // Записывает подключение файлов шрифтов в файл стилей
 export const fontsStyle = () => {
     // Файл стилей подключения шрифтов
-    let fontsFile = `${app.path.srcFolder}/scss/fonts.scss`;
+    let fontsFile = `${app.path.srcFolder}/assets/less/fonts.less`;
     // Проверяем существуют ли файлы шрифтов
     fs.readdir(app.path.build.fonts, function(err, fontsFiles) {
         if (fontsFiles) {

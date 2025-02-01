@@ -1,4 +1,4 @@
-import fileInclude from "gulp-file-include";
+import panini from "panini";
 import webpHtmlNosvg from "gulp-webp-html-nosvg";
 import versionNumber from "gulp-version-number";
 
@@ -10,7 +10,13 @@ export const html = () => {
                 message: "Error: <%= error.message %>"
             })
         ))
-        .pipe(fileInclude())
+        .pipe(panini({
+            root:       app.path.src,
+            layouts:    app.path.src.html + 'layouts/',
+            partials:   app.path.src.html + 'partials/',
+            helpers:    app.path.src.html + 'helpers/',
+            data:       app.path.src.html + 'data/'
+        }))
         .pipe(app.plugins.replace(/@img\//g, 'img/'))
         .pipe(app.plugins.if(app.isBuild, webpHtmlNosvg()))
         .pipe(app.plugins.if(app.isBuild, versionNumber({
