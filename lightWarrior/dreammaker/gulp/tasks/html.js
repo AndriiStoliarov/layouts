@@ -11,11 +11,11 @@ export const html = () => {
             })
         ))
         .pipe(panini({
-            root:       app.path.src,
-            layouts:    app.path.src.html + 'layouts/',
-            partials:   app.path.src.html + 'partials/',
-            helpers:    app.path.src.html + 'helpers/',
-            data:       app.path.src.html + 'data/'
+            root: app.path.srcFolder,
+            layouts: `${app.path.src.tpl}/layouts/`,
+            partials: `${app.path.src.tpl}/partials/`,
+            helpers: `${app.path.src.tpl}/helpers/`,
+            data: `${app.path.src.tpl}/data/`
         }))
         .pipe(app.plugins.replace(/@img\//g, 'img/'))
         .pipe(app.plugins.if(app.isBuild, webpHtmlNosvg()))

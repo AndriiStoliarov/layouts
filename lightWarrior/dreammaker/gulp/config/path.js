@@ -3,32 +3,35 @@ import * as nodePath from 'path';
 const rootFolder = nodePath.basename(nodePath.resolve());
 
 const buildFolder = `./dist`;
+const buildAssetsFolder = `./dist/assets`;
 const srcFolder = `./src`;
+const srcAssetsFolder = `./src/assets`;
 
 export const path = {
     build: {
         js: `${buildFolder}/assets/js/`,
-        css: `${buildFolder}/assets/css/`,
+        css: `${buildAssetsFolder}/css/`,
         html: `${buildFolder}/`,
-        images: `${buildFolder}/assets/img/`,
-        fonts: `${buildFolder}/assets/fonts/`,
-        files: `${buildFolder}/assets/files/`,
+        images: `${buildAssetsFolder}/img/`,
+        fonts: `${buildAssetsFolder}/fonts/`,
+        files: `${buildAssetsFolder}/files/`,
     },
     src: {
-        js: `${srcFolder}/assets/js/app.js`,
-        images: `${srcFolder}/assets/img/**/*.{jpg,jpeg,png,gif,webp}`,
-        svg: `${srcFolder}/assets/img/**/*.svg`,
-        less: `${srcFolder}/assets/less/style.less`,
+        js: `${srcAssetsFolder}/js/app.js`,
+        images: `${srcAssetsFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
+        svg: `${srcAssetsFolder}/img/**/*.svg`,
+        less: `${srcAssetsFolder}/less/style.less`,
         html: `${srcFolder}/*.html`,
-        files: `${srcFolder}/assets/files/**/*.*`,
-        svgicons: `${srcFolder}/assets/svgicons/*.svg`,
+        tpl: `${srcFolder}/tpl`,
+        files: `${srcAssetsFolder}/files/**/*.*`,
+        svgicons: `${srcAssetsFolder}/svgicons/*.svg`,
     },
     watch: {
-        js: `${srcFolder}/assets/js/**/*.js`,
-        less: `${srcFolder}/assets/less/**/*.less`,
+        js: `${srcAssetsFolder}/js/**/*.js`,
+        less: `${srcAssetsFolder}/less/**/*.less`,
         html: `${srcFolder}/**/*.html`,
-        images: `${srcFolder}/assets/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
-        files: `${srcFolder}/assets/files/**/*.*`,
+        images: `${srcAssetsFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
+        files: `${srcAssetsFolder}/files/**/*.*`,
     },
     clean: buildFolder,
     buildFolder: buildFolder,
