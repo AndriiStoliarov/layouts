@@ -1,4 +1,6 @@
 @import "fonts";
+@import "vars";
+
 
 * {
     padding: 0;
@@ -21,12 +23,12 @@ p {
 }
 
 body {
-    margin: 0;
-
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #626780;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    color: @primary;
 }
 
 /* Block */
 @import "blocks/page";
+@import "blocks/container";
+@import "blocks/header";
