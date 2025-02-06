@@ -3,6 +3,7 @@ import webpHtmlNosvg from "gulp-webp-html-nosvg";
 import versionNumber from "gulp-version-number";
 
 export const html = () => {
+    panini.refresh();
     return app.gulp.src(app.path.src.html)
         .pipe(app.plugins.plumber(
             app.plugins.notify.onError({
@@ -11,7 +12,7 @@ export const html = () => {
             })
         ))
         .pipe(panini({
-            root: app.path.srcFolder,
+            root: app.path.src.html,
             layouts: `${app.path.src.tpl}/layouts/`,
             partials: `${app.path.src.tpl}/partials/`,
             helpers: `${app.path.src.tpl}/helpers/`,
