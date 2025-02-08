@@ -10,7 +10,7 @@ Several different projects adaptive and responsive web design.
 
 **PersonalBlog** is the multi-page responsive web application with modal windows where were used SASS, gulp, system fonts, reset file, flex, grid, tag iframe, photo and video adaptive style, masks, picture with source property, mixin, property flex-grow for block growth, hide text in the and of the line and add ellipsis, adaptive text input fields based on height. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/personalBlog/dist/index.html)
 
-**Portfolio** is the small responsive web application(SPA) with modal windows where were used flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photo adaptive style, placehold dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
+**Portfolio** is the small responsive web application(SPA) with modal windows where were used LESS, flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photo adaptive style, placehold dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
 
 ## maxGraph
 **Mitravel** is the middle responsive web application(SPA) where were used flex, grid, normalize file, locals fonts, css modules, swiper, inputmask. [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/mitravel/index.html)
