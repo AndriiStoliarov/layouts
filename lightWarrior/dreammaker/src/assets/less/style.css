@@ -68,16 +68,17 @@ body {
 .header {
   width: 100%;
   height: 116px;
-  padding-top: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background-color: #dedede;
 }
 .header__left {
-  width: 20%;
   display: flex;
   align-items: center;
 }
 .header__right {
-  width: 80%;
+  display: block;
 }
 .header__logo {
   width: 72px;
