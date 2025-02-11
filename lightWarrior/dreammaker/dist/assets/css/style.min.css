@@ -50,6 +50,7 @@ p {
 body {
   font-family: "Poppins", serif;
   font-size: 18px;
+  font-weight: 400;
   color: #626780;
 }
 /* Block */
@@ -69,16 +70,13 @@ body {
   width: 100%;
   height: 116px;
   display: flex;
-  align-items: center;
   justify-content: space-around;
+  padding: 22px 0;
   background-color: #dedede;
 }
 .header__left {
   display: flex;
   align-items: center;
-}
-.header__right {
-  display: block;
 }
 .header__logo {
   width: 72px;
@@ -90,4 +88,8 @@ body {
   font-size: 22px;
   font-weight: 400;
   line-height: 1.2;
+}
+.header__right {
+  display: flex;
+  align-items: center;
 }
