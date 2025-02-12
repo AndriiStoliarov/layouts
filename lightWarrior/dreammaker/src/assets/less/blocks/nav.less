@@ -6,11 +6,29 @@
 
 .nav__link {
   margin-right: 58px;
+  position: relative;
 
-  text-decoration: none;
   color: #717784;
+  text-decoration: none;
+
+  &::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #717784;
+
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    z-index: 1;
+
+    transition: width 0.2s linear;
+  }
 
   &:hover {
-    text-decoration: underline;
+
+    &::after {
+      width: 100%;
+    }
   }
 }

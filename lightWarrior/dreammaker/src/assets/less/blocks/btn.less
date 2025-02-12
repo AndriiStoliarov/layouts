@@ -1,0 +1,25 @@
+// main: ../style.less
+
+.btn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.9em 3.7em;
+
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: @white;
+
+  background: @secondary;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+
+  transition: background-color 0.2s linear;
+
+  &:hover,
+  &:hover {
+    background-color: darken(@secondary, 10%);
+  }
+}
