@@ -16,10 +16,11 @@
   cursor: pointer;
   border-radius: 10px;
 
-  transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear, color 0.2s linear;
 
   &:hover,
   &:hover {
+    color: darken(@white, 10%);
     background-color: darken(@secondary, 10%);
   }
 }
