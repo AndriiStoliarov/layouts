@@ -45,7 +45,7 @@ p {
 body {
   margin: 0;
   font-family: "Poppins", serif;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 400;
   color: #626780;
   background-color: #fff;
@@ -171,4 +171,34 @@ body {
   font-size: 24px;
   line-height: 1.5;
   color: #696A86;
+}
+.section {
+  padding: 100px 0;
+}
+.section__header {
+  width: 100%;
+  max-width: 746px;
+  margin: 0 auto 100px;
+  text-align: center;
+}
+.section__title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.section__text {
+  margin-top: 12px;
+  line-height: 1.2;
+}
+.services {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__item {
+  width: 25%;
+  padding: 25px 20px;
+}
+.services__icon {
+  width: 65px;
+  height: 65px;
 }
