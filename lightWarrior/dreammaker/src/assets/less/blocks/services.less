@@ -1,16 +1,46 @@
 // main: ../style.less
 
 .services {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .services__item {
-    width: 25%;
-    padding: 25px 20px;
+  width: 24%;
+  padding: 25px 20px;
+
+  border: 1px solid @white;
+  border-radius: 5px;
+
+  text-align: center;
+
+  transition: border-color 0.2s linear;
+
+  &:hover,
+  &:focus {
+
+    border-color: #9D9D9D;
+  }
 }
 
 .services__icon {
-    width: 65px;
-    height: 65px;
+  width: 65px;
+  height: 65px;
+}
+
+.services__title {
+  margin-top: 12px;
+
+  font-size: 28px;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.services__text {
+  margin-top: 7px;
+
+  font-size: 17px;
+  line-height: 1.4;
+  font-weight: 500;
 }
