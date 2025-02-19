@@ -254,4 +254,27 @@ body {
 .features__item {
   width: 442px;
   height: 545px;
+  padding: 60px 50px 0;
+  border-color: #9D9D9D;
+  border-style: solid;
+  border-width: 1px;
+  border-image: linear-gradient(to bottom, #9D9D9D 0%, #D2D2D2 50%, #fff) 1;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.features__preview {
+  display: inline-block;
+  width: 339px;
+  height: 149px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.features__image {
+  width: 100%;
+  transform: translateY(-17%);
+}
+.test {
+  border-radius: 10px;
+  border-top-color: black;
+  overflow: hidden;
 }
