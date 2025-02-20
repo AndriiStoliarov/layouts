@@ -6,7 +6,7 @@
   padding: 0.9em 3.7em;
 
   font-family: inherit;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
   color: @white;
@@ -16,11 +16,23 @@
   cursor: pointer;
   border-radius: 10px;
 
+  white-space: nowrap;
   transition: background-color 0.2s linear, color 0.2s linear;
 
   &:hover,
   &:hover {
+
     color: darken(@white, 10%);
     background-color: darken(@secondary, 10%);
+  }
+
+  &--red {
+    background-color: #F01F35;
+
+    &:hover,
+    &:focus {
+
+      background-color: darken(#F01F35, 10%);
+    }
   }
 }
