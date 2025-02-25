@@ -213,7 +213,7 @@ body {
 }
 .intro__text {
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.5;
   color: #696A86;
 }
@@ -232,8 +232,10 @@ body {
   line-height: 1.2;
 }
 .section__text {
-  margin-top: 12px;
-  line-height: 1.2;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 2;
 }
 .services {
   display: flex;
@@ -258,7 +260,7 @@ body {
 }
 .services__title {
   margin-top: 12px;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 1.8;
   font-weight: 500;
 }
@@ -266,7 +268,6 @@ body {
   margin-top: 7px;
   font-size: 17px;
   line-height: 1.4;
-  font-weight: 500;
 }
 .review {
   display: inline-block;
@@ -332,7 +333,7 @@ body {
   width: 100%;
   max-width: 339px;
   margin-top: 18px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6;
 }
 .feature__button {
@@ -359,7 +360,7 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  padding: 103px 0 53px;
+  padding-top: 103px;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(149, 149, 201, 0.4);

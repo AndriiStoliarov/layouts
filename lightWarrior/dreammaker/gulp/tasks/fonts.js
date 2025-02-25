@@ -1,5 +1,6 @@
 import fs from 'fs';
 import fonterUnx from 'gulp-fonter-unx';
+import ttf2woff from 'gulp-ttf2woff';
 import ttf2woff2 from 'gulp-ttf2woff2';
 
 export const otfToTtf = () => {
@@ -13,6 +14,7 @@ export const otfToTtf = () => {
         ))
         // Конвертируем .ttf
         .pipe(fonterUnx({
+            subset: [66, 67, 68, 69, 70, 71],
             formats: ['ttf']
         }))
         // Выгружаем в исходную папку
@@ -21,7 +23,10 @@ export const otfToTtf = () => {
 
 export const ttfToWoff = () => {
     // Ищем файлы шрифтов .ttf
-    return app.gulp.src(`${app.path.srcFolder}/assets/fonts/*.ttf`, {})
+    return app.gulp.src(`${app.path.srcFolder}/assets/fonts/*.ttf`, {
+        encoding: false, // Important!
+        removeBOM: false
+    })
         .pipe(app.plugins.plumber(
             app.plugins.notify.onError({
                 title: "FONTS",
@@ -29,9 +34,7 @@ export const ttfToWoff = () => {
             })
         ))
         // Конвертируем .woff
-        .pipe(fonterUnx({
-            formats: ['woff']
-        }))
+        .pipe(ttf2woff())
         // Выгружаем в папку c результатом
         .pipe(app.gulp.dest(`${app.path.build.fonts}`))
         // Ищем файлы шрифтов .ttf
