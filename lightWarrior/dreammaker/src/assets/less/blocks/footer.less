@@ -1,0 +1,44 @@
+// main: ../style.less
+
+.footer {
+    width: 100%;
+
+    background-color: @secondary;
+}
+
+.footer__inner {
+    padding: 55px 0 45px;
+}
+
+.footer__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 108px;
+    // justify-items: center;
+    // margin-bottom: 50px;
+
+    & li {
+        list-style-type: none;
+    }
+}
+
+.footer__nav__list {
+    padding: 0;
+    margin: 0;
+}
+
+.footer__nav__caption {
+    font-size: 20px;
+    font-weight: 1.5;
+    color: @white;
+}
+
+.footer__nav__link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #E5E5E5;
+
+    text-decoration: none;
+}
+
