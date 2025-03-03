@@ -470,8 +470,16 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
 }
+.social__item {
+  display: inline-block;
+  margin: 0 16px;
+}
 .social__link {
-  margin: 0 10px;
-  color: #9B9BCA;
   text-decoration: none;
+}
+.social__icon {
+  fill: #ff0000;
+  width: 36px;
+  height: 36px;
+  vertical-align: bottom;
 }
