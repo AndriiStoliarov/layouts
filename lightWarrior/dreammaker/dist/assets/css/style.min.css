@@ -469,6 +469,25 @@ body {
 .footer__row {
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
+  align-items: center;
+}
+.copyright {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 1.8;
+}
+.footer__logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end;
+  align-items: center;
+}
+.footer__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 1.1;
 }
 .social__item {
   display: inline-block;
@@ -478,7 +497,6 @@ body {
   text-decoration: none;
 }
 .social__icon {
-  fill: #ff0000;
   width: 36px;
   height: 36px;
   vertical-align: bottom;
