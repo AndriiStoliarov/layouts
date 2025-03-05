@@ -369,7 +369,12 @@ body {
   box-shadow: 0 20px 40px rgba(149, 149, 201, 0.4);
 }
 .form__group {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
+  padding: 0 10px;
+}
+.form__footer {
+  width: 100%;
 }
 .form__label {
   font-size: 18px;
@@ -467,6 +472,7 @@ body {
   text-decoration: underline;
 }
 .footer__row {
+  width: 100%;
   display: grid;
   grid-template-columns: 3fr 1fr 1fr;
   align-items: center;
@@ -489,15 +495,23 @@ body {
   color: #fff;
   font-weight: 1.1;
 }
+.social {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+}
 .social__item {
-  display: inline-block;
+  width: 36px;
+  height: 36px;
   margin: 0 16px;
+  background-color: #fff;
+  border-radius: 50%;
 }
 .social__link {
   text-decoration: none;
 }
 .social__icon {
-  width: 36px;
-  height: 36px;
-  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+  background-color: #9B9BCA;
+  vertical-align: top;
 }

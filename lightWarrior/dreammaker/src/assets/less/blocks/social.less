@@ -1,8 +1,18 @@
 // main: ../style.less
 
+.social {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+}
+
 .social__item {
-  display: inline-block;
+  width: 36px;
+  height: 36px;
   margin: 0 16px;
+
+  background-color: @white;
+
+  border-radius: 50%;
 }
 
 .social__link {
@@ -10,14 +20,10 @@
 }
 
 .social__icon {
-  // color: #9B9BCA;
-  // stroke-width: 2;
-  // fill: #ff0000;
-  // stroke: #000;
-  // background-color: red;
-  // border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 100%;
+  height: 100%;
 
-  vertical-align: bottom;
+  background-color: @secondary;
+
+  vertical-align: top;
 }
