@@ -373,9 +373,6 @@ body {
   max-width: 400px;
   padding: 0 10px;
 }
-.form__footer {
-  width: 100%;
-}
 .form__label {
   font-size: 18px;
   line-height: 2.2;
@@ -408,6 +405,11 @@ body {
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(149, 149, 201, 0.2);
   outline: none;
+}
+.form__footer {
+  width: 100%;
+  max-width: 400px;
+  padding: 0 10px;
 }
 .form__footer-list {
   display: flex;

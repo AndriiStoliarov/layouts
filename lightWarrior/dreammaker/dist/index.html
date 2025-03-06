@@ -160,7 +160,7 @@
                 <div class="container">
                     <h2 class="signin__title">Please join with us & get all kind of benefit</h2>
             
-                    <form class="form" action="/" method="post">
+                    <form class="form" action="#" method="post">
                         <div class="form__group">
                             <label class="form__label" for="name">Name</label>
                             <input class="form__input" type="text" name="name" id="name" placeholder="Enter your name">
@@ -172,9 +172,7 @@
                         </div>
             
                         <div class="form__footer">
-                            <div class="form__group">
-                                <button class="btn  btn--form" type="submit">Sign in</button>
-                            </div>
+                            <button class="btn  btn--form" type="submit">Sign in</button>
             
                             <ul class="form__footer-list">
                                 <li>
@@ -286,7 +284,11 @@
         
                             <div class="social__item">
                                 <a class="social__link" href="#" target="_blank">
-                                    <img class="social__icon" src="assets/images/x.svg" alt="x icon">
+                                    <!-- <img class="social__icon" src="assets/images/x.svg" alt="x icon"> -->
+        
+                                    <svg class="social__icon">
+                                        <use xlink:href="#x"></use>
+                                    </svg>
                                 </a>
                             </div>
         
