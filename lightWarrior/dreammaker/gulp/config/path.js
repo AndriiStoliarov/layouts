@@ -18,7 +18,7 @@ export const path = {
     },
     src: {
         js: `${srcAssetsFolder}/js/app.js`,
-        images: `${srcAssetsFolder}/images/**/*.{jpg,jpeg,png,gif,webp}`,
+        images: `${srcAssetsFolder}/images/**/*.{jpg,jpeg,png,gif,webp,avif}`,
         svg: `${srcAssetsFolder}/images/**/*.svg`,
         less: `${srcAssetsFolder}/less/style.less`,
         html: `${srcFolder}/*.html`,
@@ -30,7 +30,7 @@ export const path = {
         js: `${srcAssetsFolder}/js/**/*.js`,
         less: `${srcAssetsFolder}/less/**/*.less`,
         html: `${srcFolder}/**/*.html`,
-        images: `${srcAssetsFolder}/images/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
+        images: `${srcAssetsFolder}/images/**/*.{jpg,jpeg,png,svg,gif,ico,webp,avif}`,
         files: `${srcAssetsFolder}/files/**/*.*`,
     },
     clean: buildFolder,
