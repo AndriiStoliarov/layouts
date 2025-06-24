@@ -1,36 +1,19 @@
 @import "fonts";
+@import "reset";
 @import "vars";
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
 body {
-  margin: 0;
-
   font-family: "Poppins", serif;
   font-size: 18px;
-  font-weight: 400;
   color: @primary;
 
   background-color: @white;
 }
 
 /* Blocks */
-@import "blocks/page";
+@import "blocks/wrapper";
 @import "blocks/header";
 @import "blocks/container";
-@import "blocks/main";
 @import "blocks/nav";
 @import "blocks/btn";
 @import "blocks/intro";

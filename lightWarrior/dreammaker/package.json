@@ -17,11 +17,10 @@
   "author": "FLS",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^3.0.3",
+    "browser-sync": "^3.0.4",
     "del": "^8.0.0",
-    "gulp": "^5.0.0",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^9.0.0",
-    "gulp-avif": "^1.1.1",
     "gulp-clean-css": "^4.3.0",
     "gulp-fonter-unx": "^0.3.0",
     "gulp-group-css-media-queries": "^1.2.2",
@@ -43,10 +42,10 @@
     "gulp-webpcss": "^1.1.1",
     "gulp-zip": "^6.1.0",
     "panini": "^1.7.2",
-    "swiper": "^11.2.1",
+    "swiper": "^11.2.8",
     "vinyl-ftp": "^0.6.1",
-    "webp-converter": "^2.2.3",
-    "webpack": "^5.97.1",
+    "webp-converter": "2.2.3",
+    "webpack": "^5.99.9",
     "webpack-stream": "^7.0.0"
   }
 }

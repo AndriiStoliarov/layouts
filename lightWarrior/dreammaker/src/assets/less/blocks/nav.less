@@ -3,33 +3,41 @@
 .nav {
   font-weight: 500;
   line-height: 1.5;
-}
 
-.nav__link {
-  margin-right: 58px;
-  position: relative;
-
-  color: #717784;
-  text-decoration: none;
-
-  &::after {
-    content: "";
-    width: 0;
-    height: 2px;
-    background-color: #717784;
-
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    z-index: 1;
-
-    transition: width 0.2s linear;
+  &__items {
+    display: flex;
   }
 
-  &:hover {
+  &__item {
+    margin-right: 58px;
+  }
+
+  &__link {
+    color: #717784;
+    font-weight: 500;
+    text-decoration: none;
+
+    position: relative;
 
     &::after {
-      width: 100%;
+      content: "";
+      width: 0;
+      height: 2px;
+      background-color: #717784;
+
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      z-index: 1;
+
+      transition: width 0.2s linear;
+    }
+
+    &:hover {
+
+      &::after {
+        width: 100%;
+      }
     }
   }
 }

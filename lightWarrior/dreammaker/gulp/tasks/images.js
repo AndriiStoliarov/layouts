@@ -1,4 +1,3 @@
-// import avif from "gulp-avif";
 import webp from "gulp-webp";
 import imagemin from "gulp-imagemin";
 
