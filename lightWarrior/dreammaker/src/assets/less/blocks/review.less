@@ -1,28 +1,25 @@
 // main: ../style.less
 
 .review {
-    display: inline-block;
-    width: 100%;
-    height: 780px;
-    margin: 0;
+  width: 100%;
+  min-height: 780px;
 
-    background: #B8BCC7 url("../images/review-bg.jpg") center no-repeat;
-    background-size: cover;
-}
+  background: #B8BCC7 url("../images/review-bg.jpg") 50% / cover no-repeat;
 
-.review__inner {
-    width: 553px;
-    height: 275px;
-    display: flex;
-    align-items: center;
+  &__inner {
+    max-width: 553px;
 
-    margin: 50px 0 0 50px;
-}
+    position: relative;
+  }
 
-.review__title {
-    font-family: "PT Serif", serif;
+  &__title {
+    font-family: "PTSerif", serif;
+    color: @black;
     font-size: 48px;
-    font-weight: 400;
     line-height: 1.4;
-    color: #000;
+
+    position: absolute;
+    top: 120px;
+    left: 54px;
+  }
 }
