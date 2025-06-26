@@ -33,10 +33,13 @@
       transition: width 0.2s linear;
     }
 
-    &:hover {
+    @media (any-hover: hover),
+    (pointer: fine) {
+      &:hover {
 
-      &::after {
-        width: 100%;
+        &::after {
+          width: 100%;
+        }
       }
     }
   }

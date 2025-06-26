@@ -200,18 +200,20 @@ body {
   z-index: 1;
   transition: width 0.2s linear;
 }
-.nav__link:hover::after {
-  width: 100%;
+@media (any-hover: hover), (pointer: fine) {
+  .nav__link:hover::after {
+    width: 100%;
+  }
 }
 .btn {
   display: inline-block;
   vertical-align: top;
   padding: 0.9em 3.7em;
   font-family: inherit;
+  color: #FFF;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
-  color: #FFF;
   background: #9B9BCA;
   border: none;
   cursor: pointer;
@@ -220,17 +222,21 @@ body {
   transition: background-color 0.2s linear, color 0.2s linear;
   /* Modificators */
 }
-.btn:hover,
-.btn:focus {
-  color: #e6e6e6;
-  background-color: #7a7ab8;
+@media (any-hover: hover), (pointer: fine) {
+  .btn:hover,
+  .btn:focus {
+    color: #e6e6e6;
+    background-color: #7a7ab8;
+  }
 }
 .btn--red {
   background-color: #F01F35;
 }
-.btn--red:hover,
-.btn--red:focus {
-  background-color: #ce0e22;
+@media (any-hover: hover), (pointer: fine) {
+  .btn--red:hover,
+  .btn--red:focus {
+    background-color: #ce0e22;
+  }
 }
 .btn--form {
   border-radius: 5px;
@@ -297,9 +303,11 @@ body {
   text-align: center;
   transition: border-color 0.2s linear;
 }
-.services__item:hover,
-.services__item:focus {
-  border-color: #9D9D9D;
+@media (any-hover: hover), (pointer: fine) {
+  .services__item:hover,
+  .services__item:focus {
+    border-color: #9D9D9D;
+  }
 }
 .services__icon {
   width: 65px;
@@ -405,24 +413,27 @@ body {
   z-index: 1;
   transform: translateX(-50%);
 }
+.signin {
+  padding-bottom: 132px;
+}
 .signin__title {
   margin-bottom: 100px;
-  font-family: "PT Serif", serif;
+  font-family: "PTSerif", serif;
+  color: #402B2B;
   font-size: 48px;
-  font-weight: 400;
   line-height: 1.4;
-  color: #000;
   text-align: center;
 }
 .form {
   width: 100%;
   max-width: 708px;
-  height: 566px;
+  min-height: 566px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-end;
   margin: 0 auto;
-  padding-top: 103px;
+  padding-bottom: 53px;
   background-color: #FFF;
   border-radius: 10px;
   box-shadow: 0 20px 40px rgba(149, 149, 201, 0.4);
@@ -470,19 +481,19 @@ body {
   max-width: 400px;
   padding: 0 10px;
 }
-.form__footer-list {
+.form__link {
   display: flex;
   padding: 0;
   margin: 30px 0 0 0;
   list-style-type: none;
 }
-.form__footer-list span {
+.form__link span {
   font-size: 20px;
   font-weight: 300;
   line-height: 2.2;
   color: #626780;
 }
-.form__footer-list a {
+.form__link a {
   margin-left: 5px;
   font-size: 20px;
   font-weight: 500;
@@ -490,7 +501,7 @@ body {
   color: #F01F35;
   text-decoration: none;
 }
-.form__footer-list a:hover {
+.form__link a:hover {
   text-decoration: underline;
 }
 .footer {

@@ -6,10 +6,10 @@
   padding: 0.9em 3.7em;
 
   font-family: inherit;
+  color: @white;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.5;
-  color: @white;
 
   background: @secondary;
   border: none;
@@ -19,22 +19,31 @@
   white-space: nowrap;
   transition: background-color 0.2s linear, color 0.2s linear;
 
-  &:hover,
-  &:focus {
+  @media (any-hover: hover),
+  (pointer: fine) {
 
-    color: darken(@white, 10%);
-    background-color: darken(@secondary, 10%);
+    &:hover,
+    &:focus {
+
+      color: darken(@white, 10%);
+      background-color: darken(@secondary, 10%);
+    }
   }
 
   /* Modificators */
   &--red {
     background-color: #F01F35;
 
-    &:hover,
-    &:focus {
+    @media (any-hover: hover),
+    (pointer: fine) {
 
-      background-color: darken(#F01F35, 10%);
+      &:hover,
+      &:focus {
+
+        background-color: darken(#F01F35, 10%);
+      }
     }
+
   }
 
   &--form {
