@@ -122,8 +122,8 @@ label {
 }
 body {
   font-family: "Poppins", serif;
-  font-size: 18px;
   color: #626780;
+  font-size: 18px;
   background-color: #FFF;
 }
 /* Blocks */
@@ -444,20 +444,18 @@ body {
   padding: 0 10px;
 }
 .form__label {
-  font-size: 18px;
-  line-height: 2.2;
   color: #626780;
+  font-size: 16px;
+  line-height: 2.5;
 }
 .form__input {
-  display: block;
-  width: 100%;
-  height: 60px;
   margin: 5px 0 30px;
-  padding: 11px 40px;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 2.2;
+  padding: 10px 40px;
+  flex-shrink: 0;
   color: #626780;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2.1;
   background-color: #FFF;
   border: 1px solid #9595C9;
   border-radius: 5px;
@@ -465,10 +463,10 @@ body {
 }
 .form__input::placeholder {
   font-family: "Rubik", serif;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 2.2;
   color: #9D9D9D;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2.1;
 }
 .form__input:focus {
   border-width: 2px;
@@ -488,59 +486,56 @@ body {
   list-style-type: none;
 }
 .form__link span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 2.2;
   color: #626780;
 }
 .form__link a {
   margin-left: 5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 2.2;
   color: #F01F35;
   text-decoration: none;
 }
-.form__link a:hover {
-  text-decoration: underline;
+@media (any-hover: hover), (pointer: fine) {
+  .form__link a:hover {
+    text-decoration: underline;
+  }
 }
 .footer {
   width: 100%;
+  padding: 55px 0 45px;
   background-color: #9B9BCA;
 }
-.footer__inner {
-  padding: 55px 0 45px;
-}
-.footer__nav {
-  width: 100%;
-  max-width: 1000px;
+.nav-footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin: 0 auto 80px;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 80px;
 }
-.footer__nav li {
+.nav-footer li {
   list-style-type: none;
 }
-.footer__nav__list {
+.nav-footer__list {
   padding: 0;
   margin: 0;
 }
-.footer__nav__caption {
+.nav-footer__caption {
   margin-bottom: 12px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5;
   color: #FFF;
 }
-.footer__nav__link {
+.nav-footer__link {
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   color: #E5E5E5;
   text-decoration: none;
 }
-.footer__nav__link:hover {
+.nav-footer__link:hover {
   text-decoration: underline;
 }
 .footer__row {
