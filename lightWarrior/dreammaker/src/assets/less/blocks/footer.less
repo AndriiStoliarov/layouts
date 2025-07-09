@@ -5,58 +5,30 @@
   padding: 55px 0 45px;
 
   background-color: @secondary;
-}
 
-.footer__inner {
-  // padding: 55px 0 45px;
-}
-
-.nav-footer {
-  // width: 100%;
-  // max-width: 1000px;
-  display: grid;
-  gap: 15px;
-  grid-template-columns: repeat(4, 1fr);
-  // justify-items: center;
-  // margin: 0 auto 80px;
-  margin-bottom: 80px;
-
-  & li {
-    list-style-type: none;
+  &__row {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    align-items: center;
   }
-}
 
-.nav-footer__list {
-  padding: 0;
-  margin: 0;
-}
+  &__logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    align-items: center;
 
-.nav-footer__caption {
-  margin-bottom: 12px;
-
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.5;
-  color: @white;
-}
-
-.nav-footer__link {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #E5E5E5;
-
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
+    img {
+      min-width: 43px;
+    }
   }
-}
 
-.footer__row {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 3fr 1fr 1fr;
-  align-items: center;
+  &__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    color: @white;
+    font-weight: 1.1;
+  }
 }
 
 .copyright {
@@ -66,16 +38,40 @@
   font-weight: 1.8;
 }
 
-.footer__logo {
+.nav-footer {
+  max-width: 842px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: end;
-  align-items: center;
-}
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto 80px;
 
-.footer__text {
-  font-family: "Roboto", sans-serif;
-  font-size: 22px;
-  color: @white;
-  font-weight: 1.1;
+
+  &__list--center {
+    justify-self: center;
+  }
+
+  &__caption {
+    margin-bottom: 12px;
+
+    font-size: 20px;
+    color: @white;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  &__link {
+    font-size: 16px;
+    color: #E5E5E5;
+    line-height: 1.5;
+
+    text-decoration: none;
+
+    @media (any-hover: hover),
+    (pointer: fine) {
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
 }
