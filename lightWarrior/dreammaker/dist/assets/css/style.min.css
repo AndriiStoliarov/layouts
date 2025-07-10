@@ -126,11 +126,37 @@ body {
   font-size: 18px;
   background-color: #FFF;
 }
+@media (max-width: 1199.98px) {
+  body {
+    /* PC */
+  }
+}
+@media (max-width: 991.98px) {
+  body {
+    /* Tablet */
+  }
+}
+@media (max-width: 767.98px) {
+  body {
+    /* Mobile */
+  }
+}
+@media (max-width: 479.98px) {
+  body {
+    /* Mobile Small */
+  }
+}
+@media (max-width: 319.98px) {
+  body {
+    /* iPhone 5C/5S/5SE */
+  }
+}
 /* Blocks */
 .wrapper {
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
   overflow: clip;
 }
 .wrapper > main {
@@ -179,9 +205,8 @@ body {
 }
 .nav__items {
   display: flex;
-}
-.nav__item {
-  margin-right: 58px;
+  align-items: center;
+  column-gap: clamp(1rem, 5.088vw, 3.625rem);
 }
 .nav__link {
   color: #717784;
@@ -206,8 +231,6 @@ body {
   }
 }
 .btn {
-  display: inline-block;
-  vertical-align: top;
   padding: 0.9em 3.7em;
   font-family: inherit;
   color: #FFF;

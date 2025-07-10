@@ -6,10 +6,18 @@
 
   &__items {
     display: flex;
+    align-items: center;
+    // column-gap: 58px;
+    // flex-wrap: wrap;
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    column-gap: clamp(1rem, 5.11vw - 0.022rem, 3.625rem);
+    // column-gap: clamp(1rem, 5.11vw, 3.625rem);
+    // column-gap: clamp(1rem, 5vw, 3.625rem);
   }
 
   &__item {
-    margin-right: 58px;
+    // margin-right: 32px;
   }
 
   &__link {
