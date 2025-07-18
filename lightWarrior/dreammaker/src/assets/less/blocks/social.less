@@ -2,15 +2,56 @@
 
 .social {
   display: flex;
+  column-gap: 32px;
 
-  &__item {
-    margin: 0 16px;
+  &__link {
+    &:hover .social__icon {
+
+      fill: #000;
+    }
   }
 
   &__icon {
     min-width: 36px;
     height: 36px;
 
-    border-radius: 50%;
+    aspect-ratio: 1;
+
+
+
+
+    // border: 1px solid #000;
+
+    // border-radius: 50%;
+    fill: #000;
+
+    path {
+      fill: #000;
+    }
+
+
+
+
+
+
+
+    // @media (any-hover: hover),
+    // (pointer: fine) {
+
+    //   &:hover {
+    //     fill: #000;
+    //   }
+    // }
+
+    // &:hover {
+
+    //   path {
+    //     fill: #000;
+    //   }
+
+    //   circle {
+    //     fill: #000;
+    //   }
+    // }
   }
 }
