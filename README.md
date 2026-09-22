@@ -6,7 +6,7 @@ Several different projects adaptive and responsive web design.
 
 **ActiveBox** is the small responsive website (SPA) where were used flex, favocons, jQuery library, SVG-Sprite, comments. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/activeBox/index.html)
 
-**InWeb** is the small simple NOT responsive web application (SPA) where were used SASS, gulp, local fonts, slider slick, eliminate jumps when loading slider, jQuery library, bootstrap, favicon generator.
+**InWeb** is the small simple NOT responsive web application (SPA) where were used SASS, gulp, local fonts, slider slick, eliminate jumps when loading slider, jQuery library, bootstrap, favicon generator. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/inWeb/dist/index.html)
 
 **MoGo** is the big responsive web application (SPA) where were used flex, google fonts, slider slick, jQuery library, placeholder. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
