@@ -10,6 +10,7 @@
 - **Notes:** favicons, SVG sprite, comments
 
 <br>
+<br>
 
 **InWeb** (self-study/practice project)
 
@@ -18,6 +19,7 @@
 - **Contributions:** Implemented interactive page functionality using jQuery and configured Gulp build process to automate asset compilation and project workflow. Used SCSS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Integrated a Slick Slider carousel for content presentation.
 - **Notes:** local fonts, elimination of layout shifts during slider load, Bootstrap framework, and favicon generation
 
+<br>
 <br>
 
 **ActiveBox** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/activeBox/index.html)<br>
