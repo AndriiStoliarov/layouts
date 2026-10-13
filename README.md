@@ -10,7 +10,6 @@
 - **Notes:** favicons, SVG sprite, comments
 
 <br>
-<br>
 
 **InWeb** (self-study/practice project)
 
