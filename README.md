@@ -6,8 +6,9 @@
 
 - **Overview:** Responsive landing page designed for a software engineering company.
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider, SVG
-- **Contributions:** Designed a responsive layout using Flexbox. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials. Created a custom favicon and consolidated SVG icons into a single sprite to optimize graphic rendering and reduce HTTP requests.
+- **Contributions:** Designed a responsive layout using Flexbox. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials. Created a custom favicon and consolidated SVG icons into a single sprite to optimize graphic rendering and reduce HTTP requests.<br>
   **Notes:** favicons, SVG sprite, comments
+  <br>
   <br>
 
 **InWeb** (self-study/practice project)
