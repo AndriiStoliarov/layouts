@@ -3,10 +3,14 @@
 ## brainsCloud
 
 **ActiveBox** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/activeBox/index.html)
+
 • **Overview:** Responsive landing page designed for a software engineering company.
+
 • **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider, SVG
-**• Contributions:** Designed a responsive layout using Flexbox. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials. Created a custom favicon and consolidated SVG icons into a single sprite to optimize graphic rendering and reduce HTTP requests.
-**• Notes:** favocons, SVG-Sprite, comments
+
+• **Contributions:** Designed a responsive layout using Flexbox. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials. Created a custom favicon and consolidated SVG icons into a single sprite to optimize graphic rendering and reduce HTTP requests.
+
+• **Notes:** favocons, SVG-Sprite, comments
 
 **InWeb** is the small simple NOT responsive web application (SPA) where were used SASS, gulp, local fonts, slider slick, eliminate jumps when loading slider, jQuery library, bootstrap, favicon generator. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/inWeb/dist/index.html)
 
