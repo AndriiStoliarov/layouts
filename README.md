@@ -13,7 +13,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;• **Overview:** Lightweight landing page for a web designer and developer's portfolio.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• **Technologies:** JavaScript, jQuery, SCSS, HTML5, CSS3, Gulp, Slick Slider<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• **Contributions:** Implemented interactive page functionality using jQuery and configured Gulp build process to automate asset compilation and project workflow. Used SCSS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Integrated a Slick Slider carousel for content presentation.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;**Notes:** local fonts, eliminate jumps when loading slider, bootstrap, favicon generator
+**Notes:** local fonts, eliminate jumps when loading slider, bootstrap, favicon generator
 
 **MoGo** is the big responsive web application (SPA) where were used flex, google fonts, slider slick, jQuery library, placeholder. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
