@@ -20,7 +20,7 @@
 
 ---
 
-MoGo (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
+**MoGo** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
 - **Overview:** Responsive landing page designed for a software engineering company.
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider
