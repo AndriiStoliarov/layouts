@@ -11,7 +11,9 @@
 
 ---
 
-### InWeb (self-study/practice project)
+### InWeb
+
+(self-study/practice project)
 
 - **Overview:** Lightweight landing page for a web designer and developer's portfolio.
 - **Technologies:** JavaScript, jQuery, SCSS, HTML5, CSS3, Gulp, Slick Slider
