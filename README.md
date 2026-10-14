@@ -7,7 +7,7 @@
 - **Overview:** Responsive landing page designed for a software engineering company.
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider, SVG
 - **Contributions:** Designed a responsive layout using Flexbox. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials. Created a custom favicon and consolidated SVG icons into a single sprite to optimize graphic rendering and reduce HTTP requests.
-- **Notes:** favicons, SVG sprite, comments
+  > **Notes:** favicon integration, SVG sprite, code commenting
 
 ---
 
@@ -16,7 +16,8 @@
 - **Overview:** Lightweight landing page for a web designer and developer's portfolio.
 - **Technologies:** JavaScript, jQuery, SCSS, HTML5, CSS3, Gulp, Slick Slider
 - **Contributions:** Implemented interactive page functionality using jQuery and configured Gulp build process to automate asset compilation and project workflow. Used SCSS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Integrated a Slick Slider carousel for content presentation.
-- **Notes:** local fonts, elimination of layout shifts during slider load, Bootstrap framework, and favicon generation
+
+> **Notes:** local fonts integration, elimination of layout shifts during slider load, Bootstrap framework, and favicon generation
 
 ---
 
@@ -26,7 +27,7 @@
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider
 - **Contributions:** Designed a responsive layout using Flexbox for proper rendering across various devices and screen sizes. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials.
 
-> **Notes:** Google Fonts, placeholders
+> **Notes:** Google Fonts integration, image placeholders
 
 ---
 
