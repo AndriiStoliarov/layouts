@@ -32,7 +32,15 @@
 
 ---
 
-**PersonalBlog** is the multi-page responsive web application with modal windows where were used SASS, gulp, system fonts, reset file, flex, grid, tag iframe, photo and video adaptive style, masks, picture with source property, mixin, property flex-grow for block growth, hide text in the and of the line and add ellipsis, adaptive text input fields based on height. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/personalBlog/dist/index.html)
+**PersonalBlog** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/personalBlog/dist/index.html)
+
+- **Overview:** Multi-page responsive website designed for a developer's personal blog.
+- **Technologies:** JavaScript, SCSS, HTML5, CSS3, Gulp
+- **Contributions:** Designed a responsive layout using CSS Grid and Flexbox. Used SCSS preprocessor with mixins for modular and scalable styling. Configured Gulp build process to automate asset compilation and project workflow. Integrated a reset stylesheet for cross-browser consistency and applied a system font stack to reduce external dependencies.
+
+> **Notes:** system fonts, CSS reset, iframe embeds, responsive images and video, image lightbox, HTML5 `<picture>` element, Flexbox `flex-grow`, text truncation with ellipsis, auto-expanding/dynamic height `<textarea>`
+
+---
 
 **Portfolio** is the small responsive web application (SPA) with modal windows where were used LESS, flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photo adaptive style, placeholder dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
 
