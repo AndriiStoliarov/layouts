@@ -20,14 +20,12 @@
 
 ---
 
-### MoGo
-
-(self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
+MoGo (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/moGo/index.html)
 
 - **Overview:** Responsive landing page designed for a software engineering company.
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider
 - **Contributions:** Designed a responsive layout using Flexbox for proper rendering across various devices and screen sizes. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials.
-- **Notes:** Google Fonts, placeholders
+  **Notes:** Google Fonts, placeholders
 
 ---
 
