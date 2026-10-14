@@ -18,7 +18,7 @@
 - **Contributions:** Implemented interactive page functionality using jQuery and configured Gulp build process to automate asset compilation and project workflow. Used SCSS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Integrated a Slick Slider carousel for content presentation.
 - **Notes:** local fonts, elimination of layout shifts during slider load, Bootstrap framework, and favicon generation
 
-####**InWeb** (self-study/practice project)
+#### **InWeb** (self-study/practice project)
 
 - **Overview:** Lightweight landing page for a web designer and developer's portfolio.
 - **Technologies:** JavaScript, jQuery, SCSS, HTML5, CSS3, Gulp, Slick Slider
