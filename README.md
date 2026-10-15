@@ -28,7 +28,7 @@
 - **Technologies:** JavaScript, jQuery, HTML5, CSS3, Slick Slider
 - **Contributions:** Designed a responsive layout using Flexbox for proper rendering across various devices and screen sizes. Implemented interactive page functionality using jQuery. Built a Slick Slider carousel to display user testimonials.
 
-> **Notes:** Google Fonts integration, image placeholders
+> **Notes:** Google Fonts, image placeholders
 
 ---
 
@@ -42,24 +42,72 @@
 
 ---
 
-**Portfolio** is the small responsive web application (SPA) with modal windows where were used LESS, flex, google fonts, slider slick, jQuery library, helper block, universal style of buttons and links, photo adaptive style, placeholder dark color. [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
+**Portfolio** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/brainsCloud/portfolio/index.html)
+
+- **Overview:** Responsive landing page designed for a UI/UX designer's portfolio.
+- **Technologies:** JavaScript, jQuery, LESS, HTML5, CSS3, Slick Slider
+- **Contributions:** Designed a responsive layout using Flexbox for proper rendering across various devices and screen sizes. Connected Google Fonts and used LESS preprocessor for modular styling. Implemented interactive page functionality using jQuery. Built modal windows integrated with Slick Slider for content presentation.
+
+> **Notes:** utility classes, reusable button and link styles, responsive images, dark image placeholders
 
 ## maxGraph
 
-**Mitravel** is the middle responsive web application (SPA) where were used flex, grid, normalize file, local fonts, css modules, swiper, inputmask. [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/mitravel/index.html)
+**Mitravel** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/mitravel/index.html)
 
-**Webovio** is the small responsive web application (SPA) where were used flex, grid, normalize file, local fonts, tipograf. [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/webovio/index.html)
+- **Overview:** Responsive landing page designed for a travel agency featuring destination reviews and trip recommendations.
+- **Technologies:** JavaScript, HTML5, CSS3, Swiper.js, Inputmask.js
+- **Contributions:** Designed a responsive layout using CSS Grid and Flexbox for proper rendering across various devices and screen sizes. Used CSS modules for scoped, maintainable styling. Integrated Swiper.js to build a touch-friendly carousel for the gallery and applied Inputmask.js to format phone number input.
+
+> **Notes:** CSS normalize, local fonts
+
+---
+
+**Webovio** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/maxGraph/webovio/index.html)
+
+- **Overview:** Responsive landing page designed for a strategic design firm.
+- **Technologies:** HTML5, CSS3
+- **Contributions:** Designed a responsive layout using CSS Grid and Flexbox. Integrated normalize.css for cross-browser consistency and connected local fonts to reduce external dependencies. Applied the Tipograf online tool to ensure correct text formatting and typography standards.
 
 ## onlineTutorials
 
-**Eternals** is the small responsive website where was used grid. [GitHub Page](https://andriistoliarov.github.io/layouts/onlineTutorials/eternals/index.html)
+**Eternals** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/onlineTutorials/eternals/index.html)
 
-**Ocean** is the small website where was used video on the main page and icon set Ionicons. [GitHub Page](https://andriistoliarov.github.io/layouts/onlineTutorials/ocean/index.html)
+- **Overview:** Responsive landing page featuring movie-themed media content.
+- **Technologies:** HTML5, CSS3
+- **Contributions:** Designed a responsive layout using CSS Grid and Flexbox for proper rendering across various devices and screen sizes.
+
+---
+
+**Ocean** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/onlineTutorials/ocean/index.html)
+
+- **Overview:** Lightweight landing page featuring a background video and a day/night theme switcher.
+- **Technologies:** JavaScript, HTML5, CSS3
+- **Contributions:** Integrated a video background and implemented dynamic color inversion for text, icons, and background between light and dark modes.
+
+> **Notes:** Ionicons icon set
 
 ## vladilenMinin
 
-**Ghostface** is the small simple NOT responsive web application (SPA) where were used SASS, gulp, local fonts.
+**Ghostface** (self-study/practice project)
 
-**Photobook** is the small simple NOT responsive web application(SPA) where were used LESS, gulp, locals fonts, fontawesome icons.
+- **Overview:** Lightweight landing page designed for a domain registrar and hosting service provider.
+- **Technologies:** JavaScript, SCSS, HTML5, CSS3, Gulp
+- **Contributions:** Used SCSS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Developed an auto-rotating testimonial slider using Vanilla JavaScript.
 
-**Colors** is the small simple web application where were used flex, google fonts, fontawesome icons, chroma library, colors generator function, navigator object, location object. [GitHub Page](https://andriistoliarov.github.io/layouts/vladilenMinin/colors/index.html)
+---
+
+**Photobook** (self-study/practice project)
+
+- **Overview:** Lightweight landing page designed for creating custom photobooks.
+- **Technologies:** LESS, HTML5, CSS3, Gulp, Font Awesome
+- **Contributions:** Used LESS preprocessor for modular, scalable styling and connected local fonts to reduce external dependencies. Integrated Font Awesome for UI icons.
+
+---
+
+**Colors** (self-study/practice project) [GitHub Page](https://andriistoliarov.github.io/layouts/vladilenMinin/colors/index.html)
+
+- **Overview:** Lightweight website designed for generating and selecting colors.
+- **Technologies:** JavaScript, HTML5, CSS3
+- **Contributions:** Developed a color selection tool, enabling users to compare colors and conveniently copy Hex codes to the clipboard.
+
+> **Notes:** Google Fonts, Font Awesome, `chroma.js`, `navigator` object, `location` object, code commenting
