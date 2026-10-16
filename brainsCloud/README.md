@@ -1,16 +1,5 @@
 # brainsCloud
 
-**Credits & Acknowledgments**
-
-This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
-
-- **Playlist:** Course Name
-- **Design assets:** Figma Link
-
-На сайте проекта [brainscloud.ru](https://brainscloud.ru) вы найдете много полезных закрытых материалов, а так же сможете поработать со мной лично, при наличии такого желания.
-
-HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
-
 ## activeBox
 
 **Credits & Acknowledgments**
@@ -51,3 +40,12 @@ This project was coded line-by-line for practice and learning purposes, followin
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
 
 Ссылка на макет: [drive.google.com](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
+
+---
+
+**Credits & Acknowledgments**
+
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
+
+- **Author's Resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
+- **Reference Guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
