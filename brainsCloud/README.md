@@ -1,6 +1,6 @@
 # brainsCloud
 
-**Credits & Acknowledgments**
+**Credits & acknowledgments**
 
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
@@ -14,15 +14,15 @@ This project was coded line-by-line for practice and learning purposes, followin
 
 ## inWeb
 
-Ссылка на макет для создания иконки сайта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
-
-Ссылка на инструмент для преобразования изображения в фавиконку: [realfavicongenerator.net](https://realfavicongenerator.net/)
-
-Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
-
-Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton.zip)
+- **Favicon asset:** [Source image](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
+- **Favicon generator:** [RealFaviconGenerator](https://realfavicongenerator.net/)
+- **Remote Gulp boilerplate:** [Zip archive](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
+- **Local Gulp boilerplate:** [Zip archive](data/gulp-skeleton.zip)
 
 ## moGo
+
+- **Favicon asset:**
+- **Design assets:** [Zip archive]
 
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
 
