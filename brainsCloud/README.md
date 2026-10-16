@@ -1,5 +1,12 @@
 # brainsCloud
 
+**Credits & Acknowledgments**
+
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
+
+- **Author's Resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
+- **Reference Guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
+
 ## activeBox
 
 **Credits & Acknowledgments**
