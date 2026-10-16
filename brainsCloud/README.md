@@ -1,27 +1,24 @@
-# [BrainsCloud](https://www.youtube.com/@BrainsCloud)
+# brainsCloud
 
-Хочешь научиться создавать сайты? Тогда тебе сюда!
-Много качественного контента по веб-разработке тебе обеспечено!
+**Credits & Acknowledgments**
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
-Меня зовут Дмитрий Валак. Я занимаюсь разработкой сайтов уже много лет, специализируюсь больше на front-end разработке и верстке сайтов, но и программирование тоже изучаю. Здесь буду делиться с вами информацией на разные темы по веб-разработке - HTML, CSS, Javascript, JQuery, Vue, PHP, MySQL, React, Gulp и тд.
+- **Playlist:** Course Name
+- **Design assets:** Figma Link
 
 На сайте проекта [brainscloud.ru](https://brainscloud.ru) вы найдете много полезных закрытых материалов, а так же сможете поработать со мной лично, при наличии такого желания.
 
 HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
-![logo](data/brainsCloudLogo.jpg)
-
-
 ## activeBox
-Верстка сайта с нуля для начинающих с подробными объяснениями используя HTML и CSS. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Практика это самый важный элемент изучения верстки сайтов. Смотрите, делайте и получайте результат!
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
+**Credits & Acknowledgments**
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
-Ссылка на макет: [Zip архив](data/activeBox.zip)
-
+- **Playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
+- **Design assets:** [Zip archive](data/activeBox.zip)
 
 ## inWeb
-В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео не только для начинающих, в нем будем испольсовать препроцессор SASS, сборщик Gulp, инструмент для создания иконки сайта favicon generator, и также подключим популярный фреймворк Bootstrap!
 
 Ссылка на макет для создания иконки сайта: [brainscloud.ru](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
 
@@ -31,17 +28,13 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
 Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton.zip)
 
-
 ## moGo
-В этом видео начнем верстать сайт с нуля. Верстка сайта это процесс создания сайта из макета, который нарисовал дизайнер. Видео для начинающих, в нем не будет препроцессоров, сборщиков и каких-либо инструментов, только HTML и CSS!
 
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
 
 Ссылка на макет: [freebiesbug.com](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
 
-
 ## personalBlog
-В этом видео начинаем курс по верстке сайта html css используя gulp и препроцессор sass. Будем делать многостраничный сайт - персональный блог. Макет сайта нарисован в Figma.
 
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PWYMRAU8RDRjSfJK52vUTo2)
 
@@ -51,9 +44,7 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 
 Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton-with-optimisation-images.zip)
 
-
 ## portfolio
-Видеокурс по верстке сайта-портфолио с нуля используя HTML, препроцессор LESS и Adobe XD или Photoshop.
 
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
 
