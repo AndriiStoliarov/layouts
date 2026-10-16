@@ -1,6 +1,7 @@
 # brainsCloud
 
 **Credits & Acknowledgments**
+
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
 - **Playlist:** Course Name
@@ -13,6 +14,7 @@ HTML, CSS справочник [htmlbase.ru](https://htmlbase.ru)
 ## activeBox
 
 **Credits & Acknowledgments**
+
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
 - **Playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
