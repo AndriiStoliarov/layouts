@@ -4,16 +4,12 @@
 
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
-- **Author's Resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
-- **Reference Guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
+- **Author's resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
+- **Reference guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
 
 ## activeBox
 
-**Credits & Acknowledgments**
-
-This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
-
-- **Playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
 - **Design assets:** [Zip archive](data/activeBox.zip)
 
 ## inWeb
@@ -47,12 +43,3 @@ This project was coded line-by-line for practice and learning purposes, followin
 Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
 
 Ссылка на макет: [drive.google.com](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
-
----
-
-**Credits & Acknowledgments**
-
-This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
-
-- **Author's Resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
-- **Reference Guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
