@@ -4,13 +4,13 @@
 
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
-- **Author's resource:** [brainscloud.ru](https://brainscloud.ru) (official project platform)
-- **Reference guide:** [htmlbase.ru](https://htmlbase.ru) (HTML & CSS reference)
+- **Author's resource:** [Official project platform](https://brainscloud.ru)
+- **Reference guide:** [HTML & CSS reference](https://htmlbase.ru)
 
 ## activeBox
 
 - **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVO4GvY4-UtIQkeD6tNmX_f)
-- **Design assets:** [Zip archive](data/activeBox.zip)
+- **Design assets:** [Local zip archive](data/activeBox.zip)
 
 ## inWeb
 
