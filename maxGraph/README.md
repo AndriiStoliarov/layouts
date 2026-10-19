@@ -1,44 +1,15 @@
-# [maxgraph](https://www.youtube.com/@maxgraph)
-**MaxGraph - cайты как страсть**
+# maxGraph
 
-Привет! Это MaxGraph!
+**Credits & acknowledgments**
 
-Меня зовут Максим. Верстальщик, занимаюсь веб-разработкой 7 лет. Фрилансер уже 5 лет, создал более 50 коммерческих сайтов. Преподаватель в онлайн-университете Skillbox, автор курса Веб-верстка.
-
-На этом канале я делюсь всеми своими знаниями в html-верстке сайтов, раскрываю возможности заработка, делюсь реальными кейсами из своей собственной работы.
-
-За последние 7 лет я успешно выполнил большое количество заказов из разных уголков мира, работаю преподавателем в онлайн-университете, написал целый обучающий курс по верстке сайтов с нуля.
-
-- Расскажу как начать верстать сайты с полного нуля.
-- Поделюсь реальными кейсами из своей работы, над которыми я свое время потел.
-- Расскажу, куда двигаться дальше, чтобы быть всегда востребованным.
-
-Увидимся на видео!
-
-![logo](data/maxGraphLogo.jpg)
-
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [maxgraph](https://www.youtube.com/@maxgraph).
 
 ## mitravel
-Привет! Ну что, поверстаем?
 
-В этом видео я начинаю верстать адаптивный сайт с нуля до выгрузки на хостинг. Мы вместе поэтапно пройдем все стадии верстки - разметим макет, напишем сетку, применим стили, сделаем адаптивную верстку, напишем js-код, а после загрузим все это на хостинг!
-
-Данное видео предназначено для новичков, которые уже базово знакомы с тегами и стилями, но им не хватает понимания того, как же правильно верстать страницы. В этом я как раз и помогу. Используем только "чистые" языки - html, css, js (js-плагины), чтобы можно было просто сесть и верстать, не углубляясь в сборщики, препроцессоры и т.д. Ну и конечно, будем делать все pixel perfect.
-
-И, как сейчас модно и удобно - используем для верстки крутой и удобный редактор - Figma.
-
-Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=JLWywZpAnMI&list=PLCMvV-acWe2A9tnbX678kJ5j9KdHtZSnV)
-
-Ссылка на макет: [Pdf файл](data/layoutMitravel.pdf)
-
-Ссылка на макет: [Figma](https://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&node-type=canvas)
-
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/watch?v=JLWywZpAnMI&list=PLCMvV-acWe2A9tnbX678kJ5j9KdHtZSnV)
+- **Design assets:** [Figma](https://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&node-type=canvas)
 
 ## webovio
-Привет! Это уже четвертый марафон на канале, и его я хочу выделить отдельно, так как постарался сделать его для новичков, максимально рассказывая все нюансы. Возможно, я где-то поспешил - напишите об этом в комментариях.
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/watch?v=D8DqoTjd_dg)
-
-Ссылка на макет: [Pdf файл](data/webovio.pdf)
-
-Ссылка на макет: [Figma](https://www.figma.com/design/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=7-3&node-type=frame)
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/watch?v=D8DqoTjd_dg)
+- **Design assets:** [Figma](https://www.figma.com/design/2rdy1qjBTl7D6BAC8S4qlf/Webovio?node-id=7-3&node-type=frame)
