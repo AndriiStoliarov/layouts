@@ -16,30 +16,22 @@ This project was coded line-by-line for practice and learning purposes, followin
 
 - **Favicon asset:** [Source image](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
 - **Favicon generator:** [RealFaviconGenerator](https://realfavicongenerator.net/)
-- **Remote Gulp boilerplate:** [Zip archive](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
-- **Local Gulp boilerplate:** [Zip archive](data/gulp-skeleton.zip)
+- **Gulp boilerplate:** [Remote zip archive](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
+- **Gulp boilerplate:** [Local zip archive](data/gulp-skeleton.zip)
 
 ## moGo
 
-- **Favicon asset:**
-- **Design assets:** [Zip archive]
-
-Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
-
-Ссылка на макет: [freebiesbug.com](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
+- **Design assets:** [Source PSD template](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
 
 ## personalBlog
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PWYMRAU8RDRjSfJK52vUTo2)
-
-Ссылка на материалы урока, Gulp 4 сборка, дизайн в Figma: [brainscloud.ru](https://files.brainscloud.ru/files/verstka-sajta-gulp-sass)
-
-Ссылка на макет: [Zip архив](data/personalBlog.zip)
-
-Ссылка на пустой шаблон (иерархия папок и gulpfile) проекта: [Zip архив](data/gulp-skeleton-with-optimisation-images.zip)
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PWYMRAU8RDRjSfJK52vUTo2)
+- **Design assets:** [Local zip archive](data/personalBlog.zip)
+- **Lesson assets:** [Remote files](https://files.brainscloud.ru/files/verstka-sajta-gulp-sass)
+- **Gulp boilerplate with image optimization:** [Local zip archive](data/gulp-skeleton-with-optimisation-images.zip)
 
 ## portfolio
 
-Ссылка на видео курс: [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
-
-Ссылка на макет: [drive.google.com](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
+- **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
+- **Design assets:** [Source PSD & XD template](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
