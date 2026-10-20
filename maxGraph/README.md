@@ -2,7 +2,7 @@
 
 **Credits & acknowledgments**
 
-This project was coded line-by-line for practice and learning purposes, following the tutorial by [maxgraph](https://www.youtube.com/@maxgraph).
+This project was coded line-by-line for practice and learning purposes, following the tutorial by [MaxGraph](https://www.youtube.com/@maxgraph).
 
 ## mitravel
 
