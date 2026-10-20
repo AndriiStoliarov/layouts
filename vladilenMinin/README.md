@@ -6,6 +6,6 @@ This project was coded line-by-line for practice and learning purposes, followin
 
 ## colors
 
-- **Tutorial video:** [Youtube](https://www.youtube.com/watch?v=OaNICHKM5KM&list=PLgZLkhmkUbsW-SlAbSFAiqSnmpbmDNpD7&index=4)
+- **Tutorial video:** [YouTube](https://www.youtube.com/watch?v=OaNICHKM5KM&list=PLgZLkhmkUbsW-SlAbSFAiqSnmpbmDNpD7&index=4)
 
 ![colorsGenerator](data/colorsGenerator.png)
