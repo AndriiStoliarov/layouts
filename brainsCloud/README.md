@@ -14,7 +14,7 @@ This project was coded line-by-line for practice and learning purposes, followin
 
 ## inWeb
 
-- **Favicon asset:** [Source image](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
+- **Favicon asset:** [Image file](https://brainscloud.ru/storage/app/media/PROFHTML/favicon.png)
 - **Favicon generator:** [RealFaviconGenerator](https://realfavicongenerator.net/)
 - **Gulp boilerplate:** [Remote zip archive](https://brainscloud.ru/storage/app/media/PROFHTML/gulp-skeleton.zip)
 - **Gulp boilerplate:** [Local zip archive](data/gulp-skeleton.zip)
@@ -22,7 +22,7 @@ This project was coded line-by-line for practice and learning purposes, followin
 ## moGo
 
 - **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PVdUqjqPdWMG4HbEZXlhICW)
-- **Design assets:** [Source PSD template](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
+- **Design assets:** [PSD template](https://freebiesbug.com/psd-freebies/mogo-free-one-page-psd-template/)
 
 ## personalBlog
 
@@ -34,4 +34,4 @@ This project was coded line-by-line for practice and learning purposes, followin
 ## portfolio
 
 - **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLoq3Accf02PV3dIFVeYnqp3FSfyR2u0gU)
-- **Design assets:** [Source PSD & XD template](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
+- **Design assets:** [PSD & XD templates](https://drive.google.com/file/d/1j2uqVr3cnE6AQ5k_a9krX8zFJsJ6qh_N/view)
