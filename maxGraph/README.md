@@ -8,7 +8,7 @@ This project was coded line-by-line for practice and learning purposes, followin
 
 - **Tutorial playlist:** [YouTube](https://www.youtube.com/playlist?list=PLCMvV-acWe2A9tnbX678kJ5j9KdHtZSnV)
 - **Design assets:** [Figma](https://www.figma.com/design/6doFNNXepkzolMs4usZlL1/MaxGraph-Youtube-marathon-1.0?node-id=0-1&node-type=canvas)
-- **Layout preview:** [Image file](data/layoutMitravel_10.jpg)
+- **Layout preview:** [Image file](data/layoutMitravel.avif)
 
 ## webovio
 
