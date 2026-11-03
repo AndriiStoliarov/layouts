@@ -4,8 +4,7 @@
 
 This project was coded line-by-line for practice and learning purposes, following the tutorial by [BrainsCloud](https://www.youtube.com/@BrainsCloud).
 
-- **Author's resource:** [Official project platform](https://brainscloud.ru)
-- **Reference guide:** [HTML & CSS reference](https://htmlbase.ru)
+**Author's resource:** [brainscloud.ru](https://brainscloud.ru)
 
 ## activeBox
 
